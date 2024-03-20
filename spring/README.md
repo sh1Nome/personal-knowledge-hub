@@ -42,6 +42,7 @@ Configurationクラスに`@ComponentScan("パッケージ名")`がある場合�
 ほかのコンポーネントを参照する際は、`@Autowired`を付ける。<br>
 `@Autowired`は型により参照されているため、同じ型のBeanが複数ある場合解決できない。<br>
 追加でBean名を指定するときは`@Qualifier("Bean名")`も付ける。<br>
+インターフェースを`@Autowired`すると自動的に実装クラスをインスタンス化する。<br>
 `@Resouce`により名前によるオートワイヤリングができるが、挙動が複雑なため割愛。<br>
 同じ型のBeanをListやMapでオートワイヤリングすることも可能。<br>
 <br>
