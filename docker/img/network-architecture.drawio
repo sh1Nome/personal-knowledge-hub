@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-02-23T10:05:29.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="hp6uIt8xNt2b191Jh-n6" version="23.1.6" type="github">
+  <diagram name="ページ1" id="ZLZSbODRSVYjGTmEv2Y1">
+    <mxGraphModel dx="811" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-1" value="コンテナA" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="340" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-2" value="コンテナA" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbBPo34NOfrwvt-QLWgU-4" target="NbBPo34NOfrwvt-QLWgU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-4" value="eth0" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-5" value="コンテナA" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbBPo34NOfrwvt-QLWgU-7" target="NbBPo34NOfrwvt-QLWgU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-7" value="eth0" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="330" y="250" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbBPo34NOfrwvt-QLWgU-9" target="NbBPo34NOfrwvt-QLWgU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-9" value="vethxxx（仮想NIC）" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="155" y="290" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbBPo34NOfrwvt-QLWgU-11" target="NbBPo34NOfrwvt-QLWgU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-11" value="vethxxx（仮想NIC）" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="295" y="290" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbBPo34NOfrwvt-QLWgU-13" target="NbBPo34NOfrwvt-QLWgU-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-13" value="docker0（仮想ブリッジ）" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NbBPo34NOfrwvt-QLWgU-14" value="eth0（物理NIC）" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="180" y="390" width="220" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
