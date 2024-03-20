@@ -1,2 +1,2 @@
 # personal-wiki
-個人用Wiki
+個人的備忘録
