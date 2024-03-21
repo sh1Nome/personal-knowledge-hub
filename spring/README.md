@@ -56,6 +56,9 @@ DIコンテナはスコープの管理もしてくれる。これによりスコ
 - request：Webアプリケーション用
 - application：Webアプリケーション用
 
+設定をしなかった場合`singleton`になる。<br>
+`@RequestScope`や`@SessionScope`も利用できる。<br>
+
 異なるスコープ間でインジェクションすると大きいスコープに合わせられる。<br>
 設定したスコープでインジェクションしたい場合は、以下のアノテーションを設定する。<br>
 `@Scope(value = "スコープ", proxyMode = ScopeProxyMode.INTERFACES)`<br>
