@@ -308,6 +308,8 @@ repositories {
 dependencies {
     # Spring Data JDBC
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+    # Spring Data JPA
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     # Thymeleaf
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     # Thymeleaf Layout Dialect
@@ -315,18 +317,18 @@ dependencies {
     # Validation
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     # Spring Web
-	implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
     # lombok
     compileOnly 'org.projectlombok:lombok'
     # Spring Boot DevTools
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
     # MySQL Driver
     runtimeOnly 'com.mysql:mysql-connector-j'
     # lombok
     annotationProcessor 'org.projectlombok:lombok'
     # Spring Web
-	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 tasks.named('test') {
