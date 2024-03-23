@@ -314,6 +314,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     # Thymeleaf Layout Dialect
     implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
+    # AOP
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
     # Validation
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     # Spring Web
