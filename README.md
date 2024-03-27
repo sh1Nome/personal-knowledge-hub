@@ -1,2 +1,2 @@
 # personal-wiki
-個人的備忘録
+最近GitとDockerとVSCodeだけでいいじゃんとなってる人の個人的備忘録
