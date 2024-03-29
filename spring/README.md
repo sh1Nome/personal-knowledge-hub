@@ -294,6 +294,11 @@ java {
 	sourceCompatibility = '17'
 }
 
+# ***plain.jarの生成をしない
+jar {
+    	enabled = false
+}
+
 # lombok
 configurations {
   compileOnly {
