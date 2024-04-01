@@ -43,6 +43,8 @@ Configurationクラスに`@ComponentScan("パッケージ名")`がある場合�
 `@Autowired`は型により参照されているため、同じ型のBeanが複数ある場合解決できない。<br>
 追加でBean名を指定するときは`@Qualifier("Bean名")`も付ける。<br>
 インターフェースを`@Autowired`すると自動的に実装クラスをインスタンス化する。<br>
+実装クラスが複数ある場合は`@Qualifier("Bean名")`が必要。<br>
+Bean名は`@Component(value="hoge")`のように設定可能。<br>
 `@Resouce`により名前によるオートワイヤリングができるが、挙動が複雑なため割愛。<br>
 同じ型のBeanをListやMapでオートワイヤリングすることも可能。<br>
 <br>
