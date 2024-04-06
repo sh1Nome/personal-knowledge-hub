@@ -5,7 +5,24 @@
 # 拡張機能備忘
 * Extension Pack for Java：Java関係
 * Spring Boot Extension Pack：STSとか
-* Gradle for Java；Gradleサポート
+* Gradle for Java：Gradleサポート
 * Japanese Language Pack for Visual Studio Code：日本語化
 * Emmet：HTMLひな形生成ができるようになる、初期から入ってる
 * Dev Containers：コンテナの中でVSCodeが使える
+* Vim：Vimが使える
+
+# 設定備忘
+### setting.json
+```
+{
+    "terminal.integrated.mouseWheelScrollSensitivity": 0.3,
+    "java.jdt.ls.java.home": "C:\\jdk\\jdk-17.0.10+7",
+    "emmet.variables": {
+        "lang": "ja"
+    },
+    "workbench.colorTheme": "Default High Contrast",
+    "editor.renderWhitespace": "all",
+    "redhat.telemetry.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false
+}
+```
