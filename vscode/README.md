@@ -13,6 +13,7 @@
 
 # 設定備忘
 ### setting.json
+コマンドパレットで`Open Settings`と検索すると開ける<br>
 ```
 {
     "terminal.integrated.mouseWheelScrollSensitivity": 0.3,
