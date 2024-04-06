@@ -24,7 +24,9 @@
 * Power Toys
 
 ### Play
-* Voice Meeter Banana
+* VB-Audio
+  * Banana
+  * Virtual Audio Cable
 * OBS Studio
 * Davinci Resolve
 
