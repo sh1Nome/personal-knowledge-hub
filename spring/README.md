@@ -1,7 +1,6 @@
 # SpringFramework
 参考書籍
 - Spring徹底入門
-- SpringFramework超入門 やさしくわかるWebアプリ開発
 
 ## 重要な概念
 DIによりクラスのインスタンス生成と依存関係をコードから排除できる。<br>
@@ -261,21 +260,3 @@ SLF4JとLogback：ログ出力用<br>
 
 ### 使い方
 Configurationクラスに`@EnableWebMvc`を設定すると、SpringMVCに必要なコンポーネントのBean定義が自動で行われる。<br>
-
-# SpringBoot
-SpringFrameworkをもとにしたフレームワーク。<br>
-SpringFrameworkとの違い<br>
-- アプリケーションサーバが内包される
-- SpringFrameworkに必要な設定が自動でされる
-    - 実際には `@SpringBootApplication` で実装されている模様
-
-[Spring Initializr](https://start.spring.io/)：SpringBootのプロジェクトを作れるサイト
-
-### 依存関係
-Spring Boot DevTools：開発用ツール<br>
-Spring Web：Spring MVCとTomcat<br>
-Spring Data JDBC：JDBC<br>
-MySQL Driver：MySQL用<br>
-lombok： `getter` や `setter` などを自動設定<br>
-Thymeleaf：テンプレートエンジン<br>
-Thymeleaf Layout Dialect：レイアウト化用<br>
