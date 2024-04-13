@@ -16,7 +16,7 @@ src\main\resources\db\migration
 
 ### スキーマ定義ファイル命名規則
 ```
-V__(バージョン)_(自由).sql
+V(バージョン)__(自由).sql
 ```
 
 ### スキーマ定義ファイル実行タイミング
@@ -29,3 +29,6 @@ SpringBootアプリケーション実行時<br>
 
 * スキーマ定義変更
   * エラー
+
+# 参考
+* [Zenn - なんとなく使わないFlyway](https://zenn.dev/mako_makok/articles/use-flyway-migration)
