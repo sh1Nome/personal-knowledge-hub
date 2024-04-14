@@ -2,3 +2,4 @@
 * [Spring公式ドキュメント](https://spring.io/)
 * [Spring Initializr](https://start.spring.io/)
 * [apprication.properties一覧(日本語訳)](https://spring.pleiades.io/spring-boot/docs/current/reference/html/application-properties.html)
+* [バージョン対応表](https://qiita.com/gate9/items/7351557829d7e1e668e9)
