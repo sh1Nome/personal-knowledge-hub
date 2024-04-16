@@ -13,9 +13,7 @@ sudo systemctl restart sshd
 # ホストの準備
 * TCP/22解放
 * IP固定
-
-# 自動起動
-以下`ps1`ファイルをタスクスケジューラでスタートアップ時自動実行させる
+* 以下のps1ファイルを用意する
 ```
 Start-Process wsl
 
