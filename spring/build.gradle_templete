@@ -55,6 +55,8 @@ dependencies {
     runtimeOnly 'com.mysql:mysql-connector-j'
     # lombok
     annotationProcessor 'org.projectlombok:lombok'
+    # Configuration Processor
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     # Warパッケージング
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
     # test
