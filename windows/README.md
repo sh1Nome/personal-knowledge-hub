@@ -5,34 +5,37 @@
 |無変換|IMEオフ|
 |変換|IMEオン|
 
-# 導入ソフト
-
+# 導入アプリ
 ### IT
-* VSCode
-* Git for Windows
-* TortoiseGit
-* WinMerge
-* WinSCP
-* RLogin
-* Docker Desktop
-
-### Util
-* サクラエディタ
-* Vim
-* 7-zip
-* Everything
-* Power Toys
-
-### Play
-* VB-Audio
-  * Banana
-  * Virtual Audio Cable
-* OBS Studio
-* Davinci Resolve
+* git
+* tortoisegit
+* winscp
+* winmerge
+* rlogin
+* vscode
+* docker
 
 ### Game
-* Steam 
-* Battle.net
-* Epic
-* Vortex
-* Tarkov
+* steam
+* vortex
+* battle.net
+* epic
+
+### Create
+* obs
+* davinci resolve
+
+### Util
+* powertoys
+* everything
+* banana
+* cantabile lite
+* サクラエディタ
+* tablacus explorer
+* edge
+* 7-zip
+* MouseGestureL.ahk
+* geforce experience
+* discord
+* twinckle tray
+* upnote
