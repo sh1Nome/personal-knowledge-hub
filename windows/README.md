@@ -37,5 +37,5 @@
 * MouseGestureL.ahk
 * geforce experience
 * discord
-* twinckle tray
+* twinkle tray
 * upnote
