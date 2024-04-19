@@ -34,7 +34,6 @@
 * tablacus explorer
 * edge
 * 7-zip
-* MouseGestureL.ahk
 * geforce experience
 * discord
 * twinkle tray
