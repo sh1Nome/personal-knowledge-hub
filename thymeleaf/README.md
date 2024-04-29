@@ -3,3 +3,14 @@
 ```
 __(式)__
 ```
+
+# インライン処理
+## テキスト
+```
+<div th:inline="text"></div>
+```
+
+## スクリプト
+```
+<div th:inline="javascript"></div>
+```
