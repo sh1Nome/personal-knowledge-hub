@@ -10,6 +10,8 @@
 * Emmet：HTMLひな形生成ができるようになる、初期から入ってる
 * Dev Containers：コンテナの中でVSCodeが使える
 * Vim：Vimが使える
+* Rainbow Csv：CSVが見やすくなる
+* Markdown Preview Enhanced：MDが見やすくなる
 
 # 設定備忘
 ### setting.json
