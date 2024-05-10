@@ -27,5 +27,7 @@
     "editor.renderWhitespace": "all",
     "redhat.telemetry.enabled": false,
     "diffEditor.ignoreTrimWhitespace": false
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "vim.useSystemClipboard": true
 }
 ```
