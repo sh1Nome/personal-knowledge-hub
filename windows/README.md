@@ -38,3 +38,4 @@
 * discord
 * twinkle tray
 * upnote
+* vlc media player
