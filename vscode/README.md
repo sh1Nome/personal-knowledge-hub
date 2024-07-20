@@ -8,6 +8,7 @@
 * Gradle for Java：Gradleサポート
 * Japanese Language Pack for Visual Studio Code：日本語化
 * Emmet：HTMLひな形生成ができるようになる、初期から入ってる
+* Remote Development：リモート作業ができるようになる
 * Dev Containers：コンテナの中でVSCodeが使える
 * Vim：Vimが使える
 * Rainbow Csv：CSVが見やすくなる

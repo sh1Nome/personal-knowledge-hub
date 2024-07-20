@@ -14,6 +14,7 @@
 * rlogin
 * vscode
 * docker
+* postman
 
 ### Game
 * steam
