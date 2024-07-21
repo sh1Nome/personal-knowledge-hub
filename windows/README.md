@@ -14,6 +14,8 @@
 * rlogin
 * vscode
 * docker
+* wsl
+    * ubuntu
 * postman
 
 ### Game
@@ -33,6 +35,11 @@
 * cantabile lite
 * サクラエディタ
 * tablacus explorer
+    * アドオン
+        * Everything
+        * 拡張機能お気に入りバー（水平）
+        * 更新
+        * ツールバーは無効化
 * edge
 * 7-zip
 * geforce experience
