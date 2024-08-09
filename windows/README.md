@@ -47,3 +47,4 @@
 * twinkle tray
 * upnote
 * vlc media player
+* discinfo3
