@@ -2,7 +2,7 @@
 1. 以下からインストーラを入手、実行
     - [VSCode公式](https://code.visualstudio.com/download)
 
-# 拡張機能備忘
+# 拡張機能
 * Extension Pack for Java：Java関係
 * Spring Boot Extension Pack：STSとか
 * Gradle for Java：Gradleサポート
@@ -14,21 +14,22 @@
 * Rainbow Csv：CSVが見やすくなる
 * Markdown Preview Enhanced：MDが見やすくなる
 
-# 設定備忘
+# 設定
 ### setting.json
 コマンドパレットで`Open Settings`と検索すると開ける<br>
 ```
 {
+    "terminal.integrated.defaultProfile.linux": "bash",
     "terminal.integrated.mouseWheelScrollSensitivity": 0.3,
     "java.jdt.ls.java.home": "C:\\jdk\\jdk-17.0.10+7",
     "emmet.variables": {
         "lang": "ja"
     },
-    "workbench.colorTheme": "Default High Contrast",
     "editor.renderWhitespace": "all",
     "redhat.telemetry.enabled": false,
-    "diffEditor.ignoreTrimWhitespace": false
-    "markdown-preview-enhanced.previewTheme": "github-dark.css",
-    "vim.useSystemClipboard": true
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vim.useSystemClipboard": true,
+    "editor.formatOnSave": true,
+    "java.debug.settings.hotCodeReplace": "auto"
 }
 ```
