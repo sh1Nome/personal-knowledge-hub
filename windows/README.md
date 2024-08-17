@@ -17,6 +17,7 @@
 * wsl
     * ubuntu
 * postman
+* windows terminal
 
 ### Game
 * steam
