@@ -33,7 +33,6 @@
 * powertoys
 * everything
 * banana
-* cantabile lite
 * サクラエディタ
 * tablacus explorer
     * アドオン
