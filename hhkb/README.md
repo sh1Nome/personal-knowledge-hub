@@ -1,2 +1,0 @@
-![](./standard.png)  
-![](./fn.png)
