@@ -48,3 +48,4 @@
 * upnote
 * vlc media player
 * discinfo3
+* ear trumpet
