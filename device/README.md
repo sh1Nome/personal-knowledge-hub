@@ -2,6 +2,7 @@
 * HHKB Professional Hybrid Type-S
 * Shokz OpenRun
 * Logicool M325S
+* Logicool G703h
 * Anker 4-Port Ultra-Slim USB-A (USB3.0対応) ハブ
 * tp-link UB500 Bluetooth 5.3 ナノUSBアダプター
 

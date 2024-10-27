@@ -24,6 +24,7 @@
 * vortex
 * battle.net
 * epic
+* xbox
 
 ### Create
 * obs
@@ -49,3 +50,4 @@
 * vlc media player
 * discinfo3
 * ear trumpet
+* screen to gif
