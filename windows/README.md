@@ -42,6 +42,7 @@
         * 更新
         * ツールバーは無効化
 * edge
+* chrome
 * 7-zip
 * geforce experience
 * discord
