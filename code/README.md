@@ -21,3 +21,5 @@
 
 ## Repository
 * Entityの永続化
+
+# 品詞
