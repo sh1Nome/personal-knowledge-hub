@@ -26,10 +26,12 @@
         "lang": "ja"
     },
     "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "Default High Contrast",
     "redhat.telemetry.enabled": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "vim.useSystemClipboard": true,
     "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vacode",
     "java.debug.settings.hotCodeReplace": "auto"
 }
 ```
