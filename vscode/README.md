@@ -13,6 +13,7 @@
 * Vim：Vimが使える
 * Rainbow Csv：CSVが見やすくなる
 * Markdown Preview Enhanced：MDが見やすくなる
+* Prettier：コードフォーマッター
 
 # 設定
 ### setting.json
