@@ -23,7 +23,7 @@ flowchart TD
     method2[処理2]
     method3[処理3]
     info[情報]
-    end[終了]
+    end([終了])
 
     start --> method1
     method1 --> if
