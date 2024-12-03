@@ -23,13 +23,13 @@ flowchart TD
     method2[処理2]
     method3[処理3]
     info[情報]
-    end([終了])
+    finish([終了])
 
     start --> method1
     method1 --> if
     if -->|yes| method2
     if -->|no| method3
     info -.->|取得| method3
-    mehtod2 --> end
-    method3 --> end
+    mehtod2 --> finish
+    method3 --> finish
 ```
