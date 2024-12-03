@@ -30,6 +30,6 @@ flowchart TD
     if -->|yes| method2
     if -->|no| method3
     info -.->|取得| method3
-    mehtod2 --> finish
+    method2 --> finish
     method3 --> finish
 ```
