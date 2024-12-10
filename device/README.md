@@ -15,6 +15,7 @@
 * [ドライバー](https://www.tp-link.com/jp/support/download/)が必要な場合ダウンロードすること
 
 # HHKB設定
+DIPスイッチは2のみオン  
 ![](./img/hhkb/standard.png)  
 ![](./img/hhkb/fn.png)  
 ![](./img/hhkb/pairing.png)
