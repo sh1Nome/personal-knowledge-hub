@@ -15,6 +15,7 @@ graph LR
     shokz[Shokz]
     earpods[EarPods]
     g304[G304]
+    g304adapter[専用アダプター]
     usbhub[USBハブ]
     bluetooth[Bluetoothアダプター]
 
@@ -22,10 +23,11 @@ graph LR
 
     usbhub --> pc
 
-    g304 & bluetooth --> usbhub
+    g304adapter & bluetooth --> usbhub
     hhkb -.-> usbhub
 
-    hhkb & shokz --> bluetooth
+    g304 -->|無線| g304adapter
+    hhkb & shokz -->|無線| bluetooth
 ```
 
 ## UB500使用時の注意点
