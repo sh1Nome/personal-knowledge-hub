@@ -1,26 +1,44 @@
-# 使用デバイス
+# 周辺デバイス
 * HHKB Professional Hybrid Type-S
+* 打ち箸
 * Shokz OpenRun
-* Logicool M325S
-* Logicool G703h
+* EarPods 3.5mm
+* Logicool G304
 * Anker 4-Port Ultra-Slim USB-A (USB3.0対応) ハブ
 * tp-link UB500 Bluetooth 5.3 ナノUSBアダプター
 
-# PCへの接続方法
-* AnkerのUSBハブにtp-linkのBluetoothアダプターとLogicool M325Sのアダプターを接続
-* HHKBとShokzをBluetoothで接続
+## 接続図
+```mermaid
+graph TD
+    pc[PC]
+    hhkb[HHKB]
+    shokz[Shokz]
+    earpods[EarPods]
+    g304[G304]
+    usbhub[USBハブ]
+    bluetooth[Bluetoothアダプター]
 
-# Bluetoothアダプター使用時の注意点
+    earpods --> pc
+
+    usbhub --> pc
+
+    g304 && bluetooth --> usbhub
+    hhkb -.-> usbhub
+
+    hhkb && shokz --> bluetooth
+```
+
+## UB500使用時の注意点
 * Windowsの場合、デバイスマネージャーから既存のBluetoothデバイスを無効化すること
 * [ドライバー](https://www.tp-link.com/jp/support/download/)が必要な場合ダウンロードすること
 
-# HHKB設定
+## HHKB設定
 DIPスイッチは2のみオン  
 ![](./img/hhkb/standard.png)  
 ![](./img/hhkb/fn.png)  
 ![](./img/hhkb/pairing.png)
 
-# Shokz操作
+## Shokz操作
 * 電源のオンオフ
     * 音量`+`ボタン長押し
 * ペアリングモード開始
