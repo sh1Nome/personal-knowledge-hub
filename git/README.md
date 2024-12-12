@@ -44,12 +44,12 @@
 1. `コントロールパネル -> プログラムと機能`から`TortoiseGit`をアンインストールする
 
 ### インストール手順
-1. 以下からインストーラをダウンロードし実行する
-    * [TortoiseGit公式](https://tortoisegit.org/download/)
+1. 以下からインストーラをダウンロードし実行する  
+    [TortoiseGit公式](https://tortoisegit.org/download/)  
 1. すべてデフォルトのままインストールする
 1. 何もないところで右クリックし、`TortoiseGit -> Setting`を開く
-1. `Network -> SSH`を以下のように設定する
-    * ![](./img/16.png)
+1. `Network -> SSH`を以下のように設定する  
+    ![](./img/16.png)  
 
 ## SSH鍵の設定
 1. コマンドプロンプトで`ssh-keygen`を実行する
