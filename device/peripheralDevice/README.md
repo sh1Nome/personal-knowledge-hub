@@ -24,7 +24,7 @@ graph LR
     usbhub --> pc
 
     g304adapter & bluetooth --> usbhub
-    hhkb -.-> usbhub
+    hhkb -.->|無線接続が安定しない場合| usbhub
 
     g304 -->|無線| g304adapter
     hhkb & shokz -->|無線| bluetooth
