@@ -9,7 +9,7 @@
 
 ## 接続図
 ```mermaid
-graph TD
+graph LR
     pc[PC]
     hhkb[HHKB]
     shokz[Shokz]
@@ -22,10 +22,10 @@ graph TD
 
     usbhub --> pc
 
-    g304 && bluetooth --> usbhub
+    g304 & bluetooth --> usbhub
     hhkb -.-> usbhub
 
-    hhkb && shokz --> bluetooth
+    hhkb & shokz --> bluetooth
 ```
 
 ## UB500使用時の注意点
