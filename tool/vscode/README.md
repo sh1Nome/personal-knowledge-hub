@@ -6,6 +6,7 @@
 ## 拡張機能
 * Remote Development
     * Dev Containers
+* Docker
 * Emmet
 * Vim
 * Prettier
