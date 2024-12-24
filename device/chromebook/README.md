@@ -9,3 +9,6 @@ https://docs.docker.com/engine/install/debian/
 `uname -m`でアーキテクチャ確認  
 公式のインストーラー使用 (arm64)  
 https://code.visualstudio.com/download
+
+## キーボードショートカット（変更差分）
+絵文字選択ツールを開く: `検索キー + .`
