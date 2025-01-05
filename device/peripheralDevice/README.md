@@ -1,33 +1,36 @@
 # 周辺デバイス
 * HHKB Professional Hybrid Type-S
+* USB接続ケーブル(TypeC - A L字)
 * 打ち箸
 * Shokz OpenRun
 * EarPods 3.5mm
 * Logicool G304
 * Anker 4-Port Ultra-Slim USB-A (USB3.0対応) ハブ
-* tp-link UB500 Bluetooth 5.3 ナノUSBアダプター
+* PC
+* Google Pixel 7a
 
 ## 接続図
 ```mermaid
-graph LR
+graph RL
     pc[PC]
+    pixel[Pixel 7a]
     hhkb[HHKB]
+    lcable[L字ケーブル]
     shokz[Shokz]
     earpods[EarPods]
     g304[G304]
     g304adapter[専用アダプター]
     usbhub[USBハブ]
-    bluetooth[Bluetoothアダプター]
 
     earpods --> pc
 
     usbhub --> pc
 
-    g304adapter & bluetooth --> usbhub
-    hhkb -.->|無線接続が安定しない場合| usbhub
+    hhkb --> lcable --> usbhub
 
-    g304 -->|無線| g304adapter
-    hhkb & shokz -->|無線| bluetooth
+    g304 -.-> g304adapter --> usbhub
+
+    shokz -.-> pixel
 ```
 
 ## UB500使用時の注意点
