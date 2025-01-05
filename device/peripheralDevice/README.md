@@ -33,10 +33,6 @@ graph RL
     shokz -.-> pixel
 ```
 
-## UB500使用時の注意点
-* Windowsの場合、デバイスマネージャーから既存のBluetoothデバイスを無効化すること
-* [ドライバー](https://www.tp-link.com/jp/support/download/)が必要な場合ダウンロードすること
-
 ## HHKB設定
 DIPスイッチは2のみオン  
 ![](./img/hhkb/standard.png)  
