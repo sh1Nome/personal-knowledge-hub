@@ -1,3 +1,3 @@
-# personal-wiki
-最近GitとDockerとVSCodeだけでいいじゃんとなってる人の個人的備忘録  
-いらないなってなったのを`.archive`に移動、定期的に掃除
+# personal-knowledge-hub
+個人的に忘れたくない知識の保管庫。  
+いらないなってなったのを`.archive`に移動、定期的に掃除する。
