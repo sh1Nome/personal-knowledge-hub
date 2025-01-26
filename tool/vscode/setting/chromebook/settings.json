@@ -19,7 +19,6 @@
       "icon": "terminal-powershell"
     }
   },
-  "editor.mouseWheelScrollSensitivity": 0.3,
   "emmet.variables": {
     "lang": "ja"
   },
