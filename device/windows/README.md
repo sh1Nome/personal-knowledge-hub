@@ -35,6 +35,7 @@
 
 ### Util
 * powertoys
+* microsoft pc manager
 * everything
 * banana
 * サクラエディタ
@@ -52,6 +53,5 @@
 * twinkle tray
 * upnote
 * vlc media player
-* discinfo3
 * ear trumpet
 * screen to gif
