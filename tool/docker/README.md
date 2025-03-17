@@ -23,3 +23,7 @@ DockerとDocker Composeについて
 * `docker cp (パスA):(パスB)`
     * Dockerの実行ホストとコンテナ内でファイルをやり取りする
     * コンテナのパスは`(コンテナID):(パス)`と表記する
+* `docker login`
+    * Docker Hubにログイン
+* `docker logout`
+    * Docker Hubからログアウト
