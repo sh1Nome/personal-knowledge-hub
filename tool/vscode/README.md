@@ -13,3 +13,4 @@
 * Japanese Language Pack for Visual Studio Code
 * Rainbow Csv
 * Markdown All in One
+* Markdown Table
