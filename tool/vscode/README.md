@@ -12,4 +12,4 @@
 * Prettier
 * Japanese Language Pack for Visual Studio Code
 * Rainbow Csv
-* Markdown Preview Enhanced
+* Markdown All in One
