@@ -8,7 +8,8 @@ https://docs.docker.com/engine/install/debian/
 ## VSCodeを導入
 `uname -m`でアーキテクチャ確認  
 公式のインストーラー使用 (arm64)  
-https://code.visualstudio.com/download
+https://code.visualstudio.com/download  
+インストール後は`apt upgrade`で更新可能
 
 ## BIZ UDゴシックを導入
 1. Google FontsからBIZ UDゴシックをダウンロードする
