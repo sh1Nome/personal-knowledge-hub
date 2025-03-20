@@ -14,3 +14,6 @@
 * Rainbow Csv
 * Markdown All in One
 * Markdown Table
+
+## フォント
+BIZ UDゴシックを導入
