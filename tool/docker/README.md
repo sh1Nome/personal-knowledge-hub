@@ -27,3 +27,25 @@ DockerとDocker Composeについて
     * Docker Hubにログイン
 * `docker logout`
     * Docker Hubからログアウト
+
+## Volumeのバックアップ
+※動作未確認
+```yml
+# docker-compose.yml
+services:
+  db:
+    image: 'postgres:16'
+    user: 'postgres'
+    volumes:
+      - 'db-data:/var/lib/postgresql/data'
+volumes:
+  db-data:
+```
+`db-data`をバックアップするには次のコマンドを使う。
+```sh
+docker run --rm -v db-data:/data -v $(pwd):/backup ubuntu tar -zcvf /backup/db-data-backup.tgz /data/
+```
+初期化とリストアをするには次のコマンドを使う。
+```sh
+docker run --rm -v db-data:/data -v $(pwd):/backup ubuntu bash -c "rm -rf /data/* && tar -zxvf /backup/db-data-backup.tgz -C /data"
+```
