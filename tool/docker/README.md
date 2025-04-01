@@ -29,7 +29,7 @@ DockerとDocker Composeについて
     * Docker Hubからログアウト
 
 ## Volumeのバックアップ
-※動作未確認
+TODO: 動作確認
 ```yml
 # docker-compose.yml
 services:
