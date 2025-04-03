@@ -25,6 +25,7 @@
   "editor.renderWhitespace": "all",
   "diffEditor.ignoreTrimWhitespace": false,
   "vim.useSystemClipboard": true,
+  "vim.vimrc.enable": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

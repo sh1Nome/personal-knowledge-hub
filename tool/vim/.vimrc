@@ -9,6 +9,8 @@ set nobackup
 set noswapfile
 " バックスペース有効化
 set backspace=indent,eol,start
+" システムクリップボードを利用
+set clipboard=unnamed
 
 " -------------------------------
 " 表示系
