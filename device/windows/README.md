@@ -32,6 +32,7 @@
 ### Create
 * obs
 * davinci resolve
+* beutl
 
 ### Util
 * powertoys
