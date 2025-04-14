@@ -54,5 +54,5 @@
 * twinkle tray
 * upnote
 * vlc media player
-* ear trumpet
+* ear trumpet (もういらないかも)
 * screen to gif
