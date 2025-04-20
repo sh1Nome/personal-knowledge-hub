@@ -14,6 +14,11 @@
 * Rainbow Csv
 * Markdown All in One
 * Markdown Table
+* GitHub Copilot
 
 ## フォント
 BIZ UDゴシックを導入（`setting.json`に記載済み、デフォルトのフォントに追加している）
+
+## GitHub Copilot
+GitHubのMCPサーバーを追加している。  
+デフォルトではホームユーザー名でAPIを実行するみたいなので注意。
