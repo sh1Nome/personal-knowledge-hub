@@ -16,7 +16,4 @@
 * Markdown Table
 
 ## フォント
-BIZ UDゴシックを導入
-
-## TODO
-vimrcの設定を記載
+BIZ UDゴシックを導入（`setting.json`に記載済み、デフォルトのフォントに追加している）
