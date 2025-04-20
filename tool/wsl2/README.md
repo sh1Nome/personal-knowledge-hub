@@ -1,7 +1,8 @@
 # WSL2
 ## インストール
 ```
-wsl --install
+wsl --install -d Debian
+wsl --set-default Debian
 ```
 
 ## SSHサーバインストール
