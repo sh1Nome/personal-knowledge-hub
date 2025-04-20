@@ -11,7 +11,6 @@
   "vim.useSystemClipboard": true,
   "editor.formatOnSave": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "workbench.colorTheme": "GitHub Dark Default",
   "chat.agent.enabled": true,
   "mcp": {
     "inputs": [
