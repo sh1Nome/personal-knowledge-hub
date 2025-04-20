@@ -41,5 +41,7 @@
   "editor.fontFamily": "\"BIZ UDゴシック\", Consolas, 'Courier New', monospace",
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
-  "terminal.integrated.smoothScrolling": true
+  "terminal.integrated.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.bracketPairs": "active"
 }
