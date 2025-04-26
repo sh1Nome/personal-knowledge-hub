@@ -11,6 +11,13 @@ https://docs.docker.com/engine/install/debian/
 https://code.visualstudio.com/download  
 インストール後は`apt upgrade`で更新可能
 
+## keyringを設定
+VSCodeからGitHubCopilotへのログイン情報を保持するために必要な設定  
+1. `gnome-keyring`を導入
+    1. `sudo apt install gnome-keyring seahorse`
+1. `gnome-keyring`を利用してVSCodeを起動
+    1. `code . --password-store="gnome-libsecret"`
+
 ## BIZ UDゴシックを導入
 1. Google FontsからBIZ UDゴシックをダウンロードする
 1. 解凍したディレクトリをLinuxと共有する
