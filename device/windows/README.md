@@ -34,13 +34,11 @@
 ### Create
 * obs
 * davinci resolve
-* beutl
 
 ### Util
 * powertoys
 * microsoft pc manager
 * everything
-* banana
 * サクラエディタ
 * tablacus explorer
     * アドオン
@@ -54,7 +52,12 @@
 * geforce experience
 * discord
 * twinkle tray
+* screen to gif
+
+### Archive
+いいアプリだったけど使わなくなった奴
+* ear trumpet
+* banana
 * upnote
 * vlc media player
-* ear trumpet (もういらないかも)
-* screen to gif
+* beutl
