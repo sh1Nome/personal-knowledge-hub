@@ -20,7 +20,7 @@
 * vscode
 * docker
 * wsl
-    * ubuntu
+    * debian
 * postman
 * windows terminal
 
