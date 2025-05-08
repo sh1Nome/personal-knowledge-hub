@@ -1,5 +1,6 @@
 # 周辺デバイス
-* HHKB Professional Hybrid Type-S
+* ~~HHKB Professional Hybrid Type-S~~
+* HHKB Studio
 * USB接続ケーブル(TypeC - A L字)
 * 打ち箸
 * Shokz OpenRun
@@ -34,10 +35,37 @@ graph RL
 ```
 
 ## HHKB設定
+### Professional Hybrid Type-S
 DIPスイッチは2のみオン  
-![](./img/hhkb/standard.png)  
-![](./img/hhkb/fn.png)  
-![](./img/hhkb/pairing.png)
+![](./img/hhkb_type_s/standard.png)  
+![](./img/hhkb_type_s/fn.png)  
+![](./img/hhkb_type_s/pairing.png)
+
+### Studio
+![](./img/hhkb_studio/default.png)  
+![](./img/hhkb_studio/fn1.png)  
+![](./img/hhkb_studio/fn2.png)
+
+#### F2レイヤー
+* WASD
+    * `Win + ← or ↓ or ↑ or →`に設定
+    * 画面の分割や最大化を行いやすくするため
+* F13キーの追加
+    * OBSのリプレイバッファに割り当てている
+* V
+    * `Win + Ctrl + V`で音量ミキサーを開けるようにしている
+* F
+    * `Win + Shift + D`でPowerToysのマウスジャンプを起動する
+
+#### tips
+* USB接続に切り替え：`Fn1 + Ctrl + 0`
+    * LEDインジケータ―全体が青く光る
+* カーソルの移動速度を変更：`Fn2 + 1~4`
+    * LEDインジケーターが`1~4`の対応する位置で光る
+    * ひとまず`3`で試している
+* プロファイルの切り替え：`Fn1 + C` → `1~4`
+    * LEDインジケーターが`1~4`の対応する位置で光る
+* Windowsでは無変換でIMEオフ・変換でIMEオンになるように設定している
 
 ## Shokz操作
 * 電源のオンオフ

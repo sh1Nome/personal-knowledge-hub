@@ -1,12 +1,14 @@
 # Windows
-主にゲームや動画編集で利用
+ゲーム・開発・動画編集など様々な用途で利用
 
 ## 設定
+`PrintScreen`キーで画面キャプチャを開くようにしている
+
 ### キー設定
-|キー|変換後|
-|---|---|
-|無変換|IMEオフ|
-|変換|IMEオン|
+|  キー  | 変換後  |
+| :----: | :-----: |
+| 無変換 | IMEオフ |
+|  変換  | IMEオン |
 
 ## 導入アプリ
 ### IT
@@ -18,7 +20,7 @@
 * vscode
 * docker
 * wsl
-    * ubuntu
+    * debian
 * postman
 * windows terminal
 
@@ -32,13 +34,11 @@
 ### Create
 * obs
 * davinci resolve
-* beutl
 
 ### Util
 * powertoys
 * microsoft pc manager
 * everything
-* banana
 * サクラエディタ
 * tablacus explorer
     * アドオン
@@ -52,7 +52,12 @@
 * geforce experience
 * discord
 * twinkle tray
+* screen to gif
+
+### Archive
+いいアプリだったけど使わなくなった奴
+* ear trumpet
+* banana
 * upnote
 * vlc media player
-* ear trumpet (もういらないかも)
-* screen to gif
+* beutl
