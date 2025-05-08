@@ -22,6 +22,7 @@
 
   // 差分エディタ設定
   "diffEditor.ignoreTrimWhitespace": false, // 差分エディタで先頭または末尾の空白文字の変更を無視しない
+  "diffEditor.renderSideBySide": false, // 差分エディタをサイドバイサイドで表示しない
 
   // Vim拡張機能の設定
   "vim.useSystemClipboard": true, // Vimでシステムクリップボードの統合を有効化
@@ -61,5 +62,5 @@
         }
       }
     }
-  },
+  }
 }
