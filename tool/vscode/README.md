@@ -11,6 +11,7 @@
 * Vim
 * Prettier
 * Japanese Language Pack for Visual Studio Code
+    * コマンドパレットの`Change Display Language`で日本語を選べるようになる
 * Rainbow Csv
 * Markdown All in One
 * Markdown Table
