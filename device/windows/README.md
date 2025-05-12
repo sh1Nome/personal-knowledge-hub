@@ -41,11 +41,14 @@
 * everything
 * サクラエディタ
 * tablacus explorer
-    * アドオン
+    * 追加したアドオン
         * Everything
         * 拡張機能お気に入りバー（水平）
         * 更新
-        * ツールバーは無効化
+        * 自動更新
+        * アドオンの更新
+    * 無効化したアドオン
+        * ツールバー
 * edge
 * chrome
 * 7-zip
