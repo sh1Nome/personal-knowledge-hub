@@ -16,7 +16,6 @@
 * Markdown All in One
 * Markdown Table
 * GitHub Copilot
-* GitHub Actions
 
 ## フォント
 BIZ UDゴシックを導入（`setting.json`に記載済み、デフォルトのフォントに追加している）
