@@ -8,6 +8,7 @@
     * Dev Containers
 * Docker
 * Emmet
+* Live Server
 * Vim
 * Prettier
 * Japanese Language Pack for Visual Studio Code
