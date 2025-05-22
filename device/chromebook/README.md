@@ -25,6 +25,9 @@ VSCodeにおいてGitHub Copilotのログイン情報を保持するための設
     "password-store": "gnome-libsecret"
     ```
 
+#### 参考
+https://code.visualstudio.com/docs/configure/settings-sync#_recommended-configure-the-keyring-to-use-with-vs-code
+
 ### 説明
 * **`gnome-keyring`**: パスワードマネージャーとして機能する
 * **`seahorse`**: `gnome-keyring`に保存されたデータをGUIで操作するためのツールである
