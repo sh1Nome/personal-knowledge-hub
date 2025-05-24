@@ -1,5 +1,6 @@
 # Chrome
 ## 拡張機能
+* Chrome Remote Desktop
 * Google オフライン ドキュメント
 * Google 翻訳
 * Keepa - Amazon Price Tracker
