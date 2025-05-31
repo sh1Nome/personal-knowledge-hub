@@ -6,7 +6,8 @@
 * Shokz OpenRun
 * EarPods 3.5mm
 * Logicool G304
-* Anker 4-Port Ultra-Slim USB-A (USB3.0対応) ハブ
+* Xbox 純正コントローラー
+* ~~Anker 4-Port Ultra-Slim USB-A (USB3.0対応) ハブ~~
 * PC
 * Google Pixel 7a
 
@@ -16,22 +17,17 @@ graph RL
     pc[PC]
     pixel[Pixel 7a]
     hhkb[HHKB]
-    lcable[L字ケーブル]
     shokz[Shokz]
     earpods[EarPods]
     g304[G304]
-    g304adapter[専用アダプター]
-    usbhub[USBハブ]
+    xbox[箱コン]
 
     earpods --> pc
+    hhkb --> pc
+    g304 --> pc
+    xbox --> pc
 
-    usbhub --> pc
-
-    hhkb --> lcable --> usbhub
-
-    g304 -.-> g304adapter --> usbhub
-
-    shokz -.-> pixel
+    shokz --> pixel
 ```
 
 ## HHKB設定
@@ -62,7 +58,7 @@ DIPスイッチは2のみオン
     * LEDインジケータ―全体が青く光る
 * カーソルの移動速度を変更：`Fn2 + 1~4`
     * LEDインジケーターが`1~4`の対応する位置で光る
-    * ひとまず`3`で試している
+    * `2`か`3`がちょうどいい
 * プロファイルの切り替え：`Fn1 + C` → `1~4`
     * LEDインジケーターが`1~4`の対応する位置で光る
 * Windowsでは無変換でIMEオフ・変換でIMEオンになるように設定している
