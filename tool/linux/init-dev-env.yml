@@ -1,6 +1,7 @@
 ---
 - name: Linux開発環境の初期化
   hosts: localhost
+  connection: local
   become: true
   tasks:
     - name: gitをインストールする

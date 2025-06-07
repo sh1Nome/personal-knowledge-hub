@@ -12,4 +12,4 @@ sudo apt install -y ansible
 ansible --version
 
 # Ansible Playbook の実行
-ansible-playbook ./init-dev-env.yml
+ansible-playbook -i localhost, ./init-dev-env.yml
