@@ -1,0 +1,10 @@
+---
+- name: Linux開発環境の初期化
+  hosts: localhost
+  become: true
+  tasks:
+    - name: gitをインストールする
+      apt:
+        name: git
+        state: present
+        update_cache: yes
