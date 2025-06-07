@@ -1,17 +1,14 @@
 #!/bin/sh
-# Ansible インストールスクリプト (Debian/Ubuntu 系)
+# 開発環境初期化スクリプト (Debian/Ubuntu 系)
 set -e
 
-# 必要なパッケージのインストール
+# パッケージリストの更新
 sudo apt update
 
 # Ansible のインストール
 sudo apt install -y ansible
 
-# バージョン確認
-ansible --version
-
-# ユーザー入力を受け取る
+# Git ユーザー情報の入力
 echo "Git user.name を入力してください: "
 read GIT_USER_NAME
 echo "Git user.email を入力してください: "
