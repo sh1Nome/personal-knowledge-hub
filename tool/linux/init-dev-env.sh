@@ -3,10 +3,10 @@
 set -e
 
 # パッケージリストの更新
-sudo apt update
+apt update
 
 # Ansible のインストール
-sudo apt install -y ansible
+apt install -y ansible
 
 # Git ユーザー情報の入力
 echo "Git user.name を入力してください: "

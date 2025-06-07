@@ -5,3 +5,4 @@
   become: true
   tasks:
     - import_tasks: git-install-and-configure.yml
+    - import_tasks: docker-install-and-configure.yml
