@@ -1,12 +1,10 @@
 {
   // Linux用のターミナル設定
   "terminal.integrated.profiles.linux": {
-    "bash": {
-      "path": "bash",
-      "icon": "terminal-bash"
-    }
+    "bash": { "path": "bash" },
+    "zsh": { "path": "zsh" }
   },
-  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.linux": "zsh",
 
   // エディタ設定
   "editor.renderWhitespace": "all", // すべての空白文字を表示
