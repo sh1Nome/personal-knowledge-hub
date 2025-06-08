@@ -6,3 +6,4 @@
   tasks:
     - import_tasks: git-install-and-configure.yml
     - import_tasks: zsh-install-and-configure.yml
+    - import_tasks: vimrc-overwrite.yml
