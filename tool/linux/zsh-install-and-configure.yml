@@ -4,17 +4,30 @@
     state: present
     update_cache: yes
 
+- name: .oh-my-zshの存在確認
+  ansible.builtin.stat:
+    path: "{{ sudo_user_home }}/.oh-my-zsh"
+  register: ohmyzsh_stat
+
+- name: oh-my-zshをアンインストール（存在する場合）
+  ansible.builtin.shell: |
+    export HOME="{{ sudo_user_home }}"
+    yes | sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/uninstall.sh)"
+  when: ohmyzsh_stat.stat.exists
+
 - name: oh-my-zshをインストールする
-  become: false
-  shell: |
+  ansible.builtin.shell: |
     export HOME="{{ sudo_user_home }}"
     export RUNZSH=yes
     export KEEP_ZSHRC=no
-    if [ -d "$HOME/.oh-my-zsh" ]; then
-      yes | sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/uninstall.sh)"
-    fi
     sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    chown -R {{ sudo_user }}:{{ sudo_user }} ~/.oh-my-zsh
+
+- name: ~/.oh-my-zshの所有者を変更
+  ansible.builtin.file:
+    path: "{{ sudo_user_home }}/.oh-my-zsh"
+    owner: "{{ sudo_user }}"
+    group: "{{ sudo_user }}"
+    recurse: yes
 
 - name: ユーザーのデフォルトシェルをzshに変更
   user:
