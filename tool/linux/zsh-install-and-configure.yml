@@ -24,3 +24,9 @@
 - name: oh-my-zshをインストールする
   ansible.builtin.shell: |
     sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+- name: .zshrcのテーマをcleanに変更する
+  ansible.builtin.lineinfile:
+    path: "$HOME/.zshrc"
+    regexp: '^ZSH_THEME='
+    line: 'ZSH_THEME="clean"'
