@@ -16,6 +16,11 @@
     yes | sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/uninstall.sh)"
   when: ohmyzsh_stat.stat.exists
 
+- name: zsh関連のゴミファイルを削除する
+  ansible.builtin.shell: |
+    rm -rf $HOME/.zshrc $HOME/.zsh_history $HOME/.zsh* $HOME/.oh-my-zsh
+  ignore_errors: yes
+
 - name: oh-my-zshをインストールする
   ansible.builtin.shell: |
     sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
