@@ -10,9 +10,11 @@
     export HOME="{{ sudo_user_home }}"
     export RUNZSH=yes
     export KEEP_ZSHRC=no
-    if [ ! -d "$HOME/.oh-my-zsh" ]; then
-      sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    if [ -d "$HOME/.oh-my-zsh" ]; then
+      yes | sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/uninstall.sh)"
     fi
+    sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    chown -R {{ sudo_user }}:{{ sudo_user }} ~/.oh-my-zsh
 
 - name: ユーザーのデフォルトシェルをzshに変更
   user:

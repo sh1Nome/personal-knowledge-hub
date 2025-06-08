@@ -2,6 +2,16 @@
 # 開発環境初期化スクリプト (Debian/Ubuntu 系)
 set -e
 
+# スクリプトのあるディレクトリに移動
+cd "$(dirname "$0")"
+
+# sudoで実行されていない場合はsudoで再実行
+if [ "$(id -u)" -ne 0 ]; then
+    SCRIPT_PATH="$(pwd)/$(basename "$0")"
+    echo "このスクリプトはsudoで実行する必要があります。sudoで再実行します..."
+    exec sudo sh "$SCRIPT_PATH" "$@"
+fi
+
 # パッケージリストの更新
 apt update
 
