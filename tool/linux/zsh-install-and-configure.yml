@@ -26,3 +26,5 @@
   user:
     name: "{{ ansible_user_id }}"
     shell: /usr/bin/zsh
+  become: true
+  become_user: "root"
