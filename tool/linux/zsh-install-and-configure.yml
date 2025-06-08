@@ -1,0 +1,21 @@
+- name: zshをインストールする
+  apt:
+    name: zsh
+    state: present
+    update_cache: yes
+
+- name: oh-my-zshをインストールする
+  become: false
+  shell: |
+    export HOME="{{ sudo_user_home }}"
+    export RUNZSH=yes
+    export KEEP_ZSHRC=no
+    if [ ! -d "$HOME/.oh-my-zsh" ]; then
+      sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    fi
+
+- name: ユーザーのデフォルトシェルをzshに変更
+  user:
+    name: "{{ sudo_user }}"
+    shell: /usr/bin/zsh
+  become: true
