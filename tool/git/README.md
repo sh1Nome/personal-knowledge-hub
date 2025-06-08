@@ -38,6 +38,7 @@
 1. 初期設定のまま進む  
     ![](./img/14.png)  
 1. インストール後、必要に応じて`git config`を実行する  
+    [Linux開発環境の初期化スクリプト](../linux/git-install-and-configure.yml)を参照
 
 ## TortoiseGit
 ### アンインストール手順
