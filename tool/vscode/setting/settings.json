@@ -4,7 +4,7 @@
     "bash": { "path": "bash" },
     "zsh": { "path": "zsh" }
   },
-  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.linux": "bash",
 
   // エディタ設定
   "editor.renderWhitespace": "all", // すべての空白文字を表示

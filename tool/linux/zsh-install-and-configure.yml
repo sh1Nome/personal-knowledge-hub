@@ -18,13 +18,4 @@
 
 - name: oh-my-zshをインストールする
   ansible.builtin.shell: |
-    export RUNZSH=yes
-    export KEEP_ZSHRC=no
     sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-- name: ユーザーのデフォルトシェルをzshに変更
-  user:
-    name: "{{ ansible_user_id }}"
-    shell: /usr/bin/zsh
-  become: true
-  become_user: "root"
