@@ -22,27 +22,7 @@
     export KEEP_ZSHRC=no
     sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-- name: ~配下のzshが付くファイル・ディレクトリを検索
-  ansible.builtin.find:
-    paths: "$HOME"
-    patterns: "*zsh*"
-    file_type: any
-    recurse: no
-    hidden: yes
-  register: zsh_files
-
-- name: zshが付くファイル・ディレクトリの所有者を変更
-  ansible.builtin.file:
-    path: "{{ item.path }}"
-    owner: "{{ ansible_user_id }}"
-    group: "{{ ansible_user_id }}"
-    recurse: "{{ item.isdir | default(false) }}"
-  loop: "{{ zsh_files.files }}"
-  become: true
-  no_log: true
-
 - name: ユーザーのデフォルトシェルをzshに変更
   user:
     name: "{{ ansible_user_id }}"
     shell: /usr/bin/zsh
-  become: true
