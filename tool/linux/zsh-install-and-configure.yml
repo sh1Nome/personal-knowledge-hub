@@ -1,4 +1,6 @@
 - name: zshをインストールする
+  become: true
+  become_user: "root"
   apt:
     name: zsh
     state: present
@@ -6,25 +8,23 @@
 
 - name: .oh-my-zshの存在確認
   ansible.builtin.stat:
-    path: "{{ sudo_user_home }}/.oh-my-zsh"
+    path: "$HOME/.oh-my-zsh"
   register: ohmyzsh_stat
 
 - name: oh-my-zshをアンインストール（存在する場合）
   ansible.builtin.shell: |
-    export HOME="{{ sudo_user_home }}"
     yes | sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/uninstall.sh)"
   when: ohmyzsh_stat.stat.exists
 
 - name: oh-my-zshをインストールする
   ansible.builtin.shell: |
-    export HOME="{{ sudo_user_home }}"
     export RUNZSH=yes
     export KEEP_ZSHRC=no
     sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 - name: ~配下のzshが付くファイル・ディレクトリを検索
   ansible.builtin.find:
-    paths: "{{ sudo_user_home }}"
+    paths: "$HOME"
     patterns: "*zsh*"
     file_type: any
     recurse: no
@@ -34,8 +34,8 @@
 - name: zshが付くファイル・ディレクトリの所有者を変更
   ansible.builtin.file:
     path: "{{ item.path }}"
-    owner: "{{ sudo_user }}"
-    group: "{{ sudo_user }}"
+    owner: "{{ ansible_user_id }}"
+    group: "{{ ansible_user_id }}"
     recurse: "{{ item.isdir | default(false) }}"
   loop: "{{ zsh_files.files }}"
   become: true
@@ -43,6 +43,6 @@
 
 - name: ユーザーのデフォルトシェルをzshに変更
   user:
-    name: "{{ sudo_user }}"
+    name: "{{ ansible_user_id }}"
     shell: /usr/bin/zsh
   become: true
