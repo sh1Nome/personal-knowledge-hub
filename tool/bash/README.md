@@ -63,6 +63,10 @@
     * プロセス一覧を表示
 * `kill (PID)`
     * プロセスを停止
+* `hostname`
+    * ホスト名を表示する
+* `hostname -i`
+    * IPアドレスを表示する
 * `shutdown -h now`
     * すぐにシャットダウンする
 * `reboot`
