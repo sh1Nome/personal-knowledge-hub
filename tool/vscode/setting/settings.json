@@ -1,10 +1,8 @@
 {
   // Linux用のターミナル設定
   "terminal.integrated.profiles.linux": {
-    "bash": {
-      "path": "bash",
-      "icon": "terminal-bash"
-    }
+    "bash": { "path": "bash" },
+    "zsh": { "path": "zsh" }
   },
   "terminal.integrated.defaultProfile.linux": "bash",
 
