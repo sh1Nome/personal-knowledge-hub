@@ -82,3 +82,9 @@
 * `apt list --installed`
     * インストール済みパッケージ一覧を表示する
     * `apt`じゃないけど`dpkg -l`も見やすい
+
+## タブ補完
+`bash-completion`を導入することでタブ補完を有効にできる  
+```
+apt install bash-completion
+```
