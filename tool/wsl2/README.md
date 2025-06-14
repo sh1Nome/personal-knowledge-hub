@@ -5,6 +5,11 @@ wsl --install -d Debian
 wsl --set-default Debian
 ```
 
+## Windowsのエクスプローラーからアクセス
+```
+\\wsl$
+```
+
 ## SSHサーバインストール
 ```
 sudo apt update
