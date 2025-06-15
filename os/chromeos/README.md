@@ -42,5 +42,8 @@ https://code.visualstudio.com/docs/configure/settings-sync#_recommended-configur
 1. `fc-chache -v`でフォントを更新する
 1. `fc-list | grep -i biz`で確認する
 
+### 補足
+`半角:全角 = 1:2`であればほかのフォントでもいい
+
 ## キーボードショートカット（変更差分）
 絵文字選択ツールを開く: `検索キー + .`
