@@ -29,3 +29,8 @@ sudo systemctl restart sshd
     $IP = (wsl -d Ubuntu exec hostname -I).Trim()
     netsh.exe interface portproxy add v4tov4 listenport=22 connectaddress=$IP
     ```
+
+## アンインストール
+```
+wsl --unregister Debian
+```
