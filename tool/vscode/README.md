@@ -6,6 +6,9 @@
 ## フォント
 BIZ UDゴシックを導入（`setting.json`に記載済み、デフォルトのフォントに追加している）
 
+## よく使う拡張機能
+[extensions.json](./extensions.json)にまとめた
+
 ## よく使うショートカット
 * ファイルを検索：`Ctrl + p`
 * コマンドパレットを開く：`Ctrl + Shift + p`
