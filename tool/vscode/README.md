@@ -11,7 +11,6 @@ BIZ UDゴシックを導入（`setting.json`に記載済み、デフォルトの
 * コマンドパレットを開く：`Ctrl + Shift + p`
 * 統合ターミナルに移動：`Ctrl + @`
 * GitHub Copilot Chatに移動：`Ctrl + Alt + i`
-* エディターに移動：`Ctrl + 1`
 * サイドバーのエクスプローラーに移動：`Ctrl + Shift + e`
 * サイドバーの検索に移動：`Ctrl + Shift + f`
 * サイドバーにソース管理に移動：`Ctrl + Shift + g`
