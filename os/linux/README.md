@@ -7,7 +7,3 @@ Debianを使うことが多い。
 * git
 * vim
 * vscode
-
-## dotfiles
-各種アプリの設定は以下にまとめてある。  
-https://github.com/sh1Nome/dotfiles
