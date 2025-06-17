@@ -16,3 +16,11 @@ BIZ UDゴシックを導入（`setting.json`に記載済み、デフォルトの
 * サイドバーの検索に移動：`Ctrl + Shift + f`
 * サイドバーにソース管理に移動：`Ctrl + Shift + g`
 * サイドバーの実行とデバッグに移動：`Ctrl + Shift + d`
+
+## よく使うコマンドパレット
+* Format Document
+* Rebuild and Reopen in Container
+* Open User Settings
+* Open Keyboard Shortcuts
+* Reset View Locations
+* Toggle Zen Mode
