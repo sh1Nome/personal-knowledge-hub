@@ -4,10 +4,8 @@
     - [VSCode公式](https://code.visualstudio.com/download)
 
 ## フォント
-BIZ UDゴシックを導入（`setting.json`に記載済み、デフォルトのフォントに追加している）
-
-## よく使う拡張機能
-[extensions.json](../../.vscode/extensions.json)にまとめた
+BIZ UDゴシックを導入（`setting.json`に記載済み、デフォルトのフォントに追加している）  
+参考：https://github.com/sh1Nome/dotfiles
 
 ## よく使うショートカット
 * ファイルを検索：`Ctrl + p`
