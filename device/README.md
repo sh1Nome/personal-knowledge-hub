@@ -42,6 +42,9 @@ DIPスイッチは2のみオン
 ![](./img/hhkb_studio/fn1.png)  
 ![](./img/hhkb_studio/fn2.png)
 
+#### 英数キーとかなキー
+かなキーがLang1キーで英数キーがLang2キーとなっている
+
 #### F2レイヤー
 * WASD
     * `Win + ← or ↓ or ↑ or →`に設定
