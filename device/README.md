@@ -43,7 +43,11 @@ DIPスイッチは2のみオン
 ![](./img/hhkb_studio/fn2.png)
 
 #### 英数キーとかなキー
-かなキーがLang1キーで英数キーがLang2キーとなっている
+かなキーがLang1キーで英数キーがLang2キーとなっている。  
+WindowsのIMEではLang1がIMEオン、Lang2がIMEオフとなっている。
+
+##### 参考
+https://learn.microsoft.com/ja-jp/windows-hardware/design/component-guidelines/keyboard-japan-ime
 
 #### F2レイヤー
 * WASD
