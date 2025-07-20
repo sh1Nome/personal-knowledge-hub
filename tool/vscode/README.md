@@ -22,4 +22,3 @@ BIZ UDゴシックを導入（`setting.json`に記載済み、デフォルトの
 * Open User Settings
 * Open Keyboard Shortcuts
 * Reset View Locations
-* Toggle Zen Mode
