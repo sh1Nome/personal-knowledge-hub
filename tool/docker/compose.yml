@@ -1,0 +1,14 @@
+services:
+  debian:
+    image: debian:latest
+    # コンテナを起動し続けるためのコマンド
+    command: tail -f /dev/null
+    # インタラクティブモードとTTYを有効化
+    tty: true
+    # PID1にinitプロセスを設定
+    init: true
+    # ホストのディレクトリをマウント
+    volumes:
+      - ./mount:/tmp
+    # 作業ディレクトリを指定
+    working_dir: /tmp
