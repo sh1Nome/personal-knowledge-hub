@@ -1,6 +1,9 @@
 # docker
 DockerとDocker Composeについて
 
+## compose.yml
+`debian:latest`イメージをベースにした開発環境用のコンテナを定義します。ホストの`./mount`ディレクトリがコンテナ内の`/tmp`にマウントされます。
+
 ## よく使うコマンド
 * `docker ps`
     * 起動しているコンテナ一覧を出力する
