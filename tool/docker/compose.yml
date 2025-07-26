@@ -9,6 +9,6 @@ services:
     init: true
     # ホストのディレクトリをマウント
     volumes:
-      - ./mount:/tmp
+      - ./mount:/root
     # 作業ディレクトリを指定
-    working_dir: /tmp
+    working_dir: /root
