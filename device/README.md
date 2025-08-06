@@ -45,13 +45,10 @@ DIPスイッチは2のみオン
 ![](./img/hhkb_studio/fn1.png)  
 ![](./img/hhkb_studio/fn2.png)
 
-#### 英数キーとかなキー
-かなキーがLang1キーで英数キーがLang2キーとなっている。  
-WindowsのIMEではLang1がIMEオン、Lang2がIMEオフとなっている。  
-TODO: ChromeBookでは上記の設定になっていない。対応が必要。
-
-##### 参考
-https://learn.microsoft.com/ja-jp/windows-hardware/design/component-guidelines/keyboard-japan-ime
+#### IMEのオンオフ
+[os/windows/README](../os/windows/README.md)に書いてあるとおり、変換／無変換をIMEのオン／オフに割り当てている。  
+キーマップ変更ツールでかな／英数キーを割り当てることでLang1／Lang2を割り当てることができるが、ChromeBookが対応していないので、使っていない。
+[WindowsのIME](https://learn.microsoft.com/ja-jp/windows-hardware/design/component-guidelines/keyboard-japan-ime)ではLang1がIMEオン、Lang2がIMEオフとなっている。  
 
 #### F2レイヤー
 * WASD
