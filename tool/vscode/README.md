@@ -19,6 +19,7 @@ BIZ UDゴシックを導入（`setting.json`に記載済み、デフォルトの
 * サイドバーの実行とデバッグに移動：`Ctrl + Shift + d`
 * サイドバーを閉じる：`Ctrl + b`
 * 呼び出し階層を表示：`Shift + Alt + h`
+* インポートの整理：`Shift + Alt + o`
 
 ## よく使うコマンドパレット
 * Format Document
