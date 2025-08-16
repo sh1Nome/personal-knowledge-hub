@@ -1,0 +1,2 @@
+# Alacritty
+Debian12のバイナリをビルドするDockerfile、テストはまだしてない。
