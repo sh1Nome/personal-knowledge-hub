@@ -23,6 +23,7 @@
     * debian
 * postman
 * windows terminal
+* virtualbox
 
 ### Game
 * steam
