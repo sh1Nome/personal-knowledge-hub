@@ -1,4 +1,5 @@
 # プログラミング
+
 ## OOP（オブジェクト指向プログラミング）
 以下の要素を持つ。
 * 抽象化
@@ -180,7 +181,7 @@ graph LR
 ```
 
 ## DRY原則
-Don’t Repeat Yourselfの略。  
+Don't Repeat Yourselfの略。  
 開発において情報を重複させないこと。
 
 ## YAGNI原則
