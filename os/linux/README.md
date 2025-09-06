@@ -1,65 +1,86 @@
 # Linux
-Debianを使うことが多い。
+
+Debian を使うことが多い。
 
 ## よく使うアプリ
-* bash
-* bash-completion
-* git
-* vim
-* vscode
-* docker
+
+- bash
+- bash-completion
+- git
+- vim
+- vscode
+- docker
 
 ## お試しに使っているアプリ
-* Gemini CLI (node)
-  * Debian標準リポジトリのNode.jsは古く要件を満たさないため、NodeSourceリポジトリから最新版をインストール
-  * 参考: [Node.js — パッケージマネージャーを利用したNode.jsのインストール](https://nodejs.org/ja/download/package-manager/all#debian-and-ubuntu-based-linux-distributions)
+
+- Gemini CLI (node)
+  - Debian 標準リポジトリの Node.js は古く要件を満たさないため、NodeSource リポジトリから最新版をインストール
+  - 参考: [Node.js — パッケージマネージャーを利用した Node.js のインストール](https://nodejs.org/ja/download/package-manager/all#debian-and-ubuntu-based-linux-distributions)
 
 ## 使いたいアプリ
-* Claude Code (node)
+
+- Claude Code (node)
 
 ## パッケージ管理システム
-Linuxディストリビューションにおいて、ソフトウェアのインストール、アップグレード、設定、削除を自動化するシステム。
 
-### Debian系
+Linux ディストリビューションにおいて、ソフトウェアのインストール、アップグレード、設定、削除を自動化するシステム。
+
+### Debian 系
+
 #### dpkg
-Debian系のディストリビューションで利用される低レベルなパッケージ管理システム。debパッケージを直接操作する。
+
+Debian 系のディストリビューションで利用される低レベルなパッケージ管理システム。deb パッケージを直接操作する。
 
 #### apt-get
-Debian系のディストリビューションで利用されるパッケージ管理システム。dpkgをラップして、依存関係の解決などを行う。
+
+Debian 系のディストリビューションで利用されるパッケージ管理システム。dpkg をラップして、依存関係の解決などを行う。
 
 #### apt
-apt-getの後継となるパッケージ管理システム。apt-getの機能に加えて、プログレスバー表示などの機能が追加されている。
 
-### Red Hat系
+apt-get の後継となるパッケージ管理システム。apt-get の機能に加えて、プログレスバー表示などの機能が追加されている。
+
+### Red Hat 系
+
 #### rpm
-Red Hat系のディストリビューションで利用される低レベルなパッケージ管理システム。rpmパッケージを直接操作する。
+
+Red Hat 系のディストリビューションで利用される低レベルなパッケージ管理システム。rpm パッケージを直接操作する。
 
 #### yum
-Red Hat系のディストリビューションで利用されるパッケージ管理システム。rpmをラップして、依存関係の解決などを行う。
+
+Red Hat 系のディストリビューションで利用されるパッケージ管理システム。rpm をラップして、依存関係の解決などを行う。
 
 #### dnf
-yumの後継となるパッケージ管理システム。yumの機能に加えて、パフォーマンスの向上や依存関係の解決の改善がされている。
 
-### Arch系
+yum の後継となるパッケージ管理システム。yum の機能に加えて、パフォーマンスの向上や依存関係の解決の改善がされている。
+
+### Arch 系
+
 #### pacman
-Arch Linuxで利用されるパッケージ管理システム。高速で軽量、依存関係の管理が優秀。  
+
+Arch Linux で利用されるパッケージ管理システム。高速で軽量、依存関係の管理が優秀。  
 バイナリパッケージとソースパッケージ（AUR）の両方をサポート。
 
 ### その他
+
 #### snap
-Canonicalによって開発されたパッケージ管理システム。ディストリビューションに依存しない。
+
+Canonical によって開発されたパッケージ管理システム。ディストリビューションに依存しない。
 
 #### flatpak
+
 ディストリビューションに依存しないパッケージ管理システム。サンドボックス環境でアプリケーションを実行する。
 
 #### AppImage
+
 アプリケーションを単一のファイルとして配布するためのフォーマット。インストール不要で実行可能。
 
 #### nix
+
 関数型パッケージ管理システム。パッケージの依存関係を純粋関数として表現し、  
-ロールバック可能で再現性の高い環境構築が特徴。NixOSの基盤でもある。
+ロールバック可能で再現性の高い環境構築が特徴。NixOS の基盤でもある。
 
 ## POSIX
-Portable Operating System Interfaceの略。  
-Unix系OSの標準仕様を定めた規格。異なるUnix系OS間での移植性を向上させることを目的としている。  
+
+Portable Operating System Interface の略。  
+Unix 系 OS の標準仕様を定めた規格。異なる Unix 系 OS 間での移植性を向上させることを目的としている。  
 システムコール、コマンドライン、シェルなどのインターフェースを標準化している。
