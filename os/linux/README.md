@@ -25,7 +25,7 @@ Debian を使うことが多い。
   - キーボードショートカット: Win キーでアプリケーションファインダー
   - Bluetooth: `rfkill unblock bluetooth`後、bluetoothctl でペアリング・信頼設定
     1. `rfkill unblock bluetooth`
-       1. `bluetoochctl`
+    1. `bluetoochctl`
        1. `power on`
        1. `agent on`
        1. `default-agent`
