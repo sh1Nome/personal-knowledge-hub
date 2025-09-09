@@ -1,26 +1,20 @@
 # Linux
 
-Debian を使うことが多い。
-
 ## Debian
 
 ### インストール・セットアップメモ
 
 - ISO イメージのダウンロードと検証
-
   - jaist 等のミラーから ISO を取得
   - `sha512sum`でハッシュ値を計算し、公式 SHA512SUMS と一致するか確認
   - SHA512SUMS と署名ファイル（.sign）を取得し、Debian 公式公開鍵で`gpg --verify`して検証
-
 - グラフィックインストーラーの主な設定
-
   - パーティショニング: LVM 有効化、全ファイルを 1 パーティションに
   - ファイルシステム: ext4
   - パッケージ: Debian デスクトップ環境と Xfce のみ
   - ブートローダー: `/dev/sda`に GRUB をインストール
-
 - 追加・変更したアプリ・設定
-  - インストール: git, chrome, vscode, bash-completion, rfkill, systemd-timesyncd
+  - インストール: git, chrome, vscode, docker, bash-completion, rfkill, systemd-timesyncd
   - IME: 変換/無変換キーでオン・オフ切替
   - キーボードショートカット: Win キーでアプリケーションファインダー
   - Bluetooth: `rfkill unblock bluetooth`後、bluetoothctl でペアリング・信頼設定
@@ -36,25 +30,6 @@ Debian を使うことが多い。
        1. `info (mac)`
   - 時計: `timedatectl set-ntp true`で NTP 有効化
   - ビープ音: `echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf`で無効化
-
-## よく使うアプリ
-
-- bash
-- bash-completion
-- git
-- vim
-- vscode
-- docker
-
-## お試しに使っているアプリ
-
-- Gemini CLI (node)
-  - Debian 標準リポジトリの Node.js は古く要件を満たさないため、NodeSource リポジトリから最新版をインストール
-  - 参考: [Node.js — パッケージマネージャーを利用した Node.js のインストール](https://nodejs.org/ja/download/package-manager/all#debian-and-ubuntu-based-linux-distributions)
-
-## 使いたいアプリ
-
-- Claude Code (node)
 
 ## パッケージ管理システム
 
