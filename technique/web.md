@@ -16,6 +16,10 @@
 ### SSE (Server Sent Events)
 サーバーからクライアントへのリアルタイム通信を実現する技術。WebSocketよりもシンプルで、HTTP上で動作する。
 
+## セマンティックHTML
+### セマンティックなHTML
+HTMLの要素をその意味に応じて適切に使用すること。`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`などの要素を使い、文書構造を明確にする。SEOやアクセシビリティの向上に寄与する。
+
 ## Webセキュリティ
 ### XSS (Cross-Site Scripting)
 Webサイトに悪意のあるスクリプトを埋め込む攻撃。ユーザーの入力値を適切にエスケープすることで防げる。
@@ -25,6 +29,9 @@ Webサイトに悪意のあるスクリプトを埋め込む攻撃。ユーザ�
 
 ### CORS (Cross-Origin Resource Sharing)
 異なるオリジン間でのリソース共有を制御するブラウザのセキュリティ機能。適切なヘッダー設定が必要。
+
+### サニタイズ (Sanitization)
+ユーザー入力を無害化する処理。HTMLエスケープやSQL文字列の適切な処理など、XSS攻撃やSQLインジェクションを防ぐために必要。
 
 ## プロトコル
 ### HTTP (HyperText Transfer Protocol)

@@ -17,6 +17,8 @@
   - インストール: git, chrome, vscode, docker, bash-completion, rfkill, systemd-timesyncd
   - IME: 変換/無変換キーでオン・オフ切替
   - キーボードショートカット: Win キーでアプリケーションファインダー
+    * `Win + Space`でアプリケーションファインダー
+    * `Win + 矢印`でタイリング
   - Bluetooth: `rfkill unblock bluetooth`後、bluetoothctl でペアリング・信頼設定
     1. `rfkill unblock bluetooth`
     1. `bluetoochctl`

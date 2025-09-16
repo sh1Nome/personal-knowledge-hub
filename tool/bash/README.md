@@ -38,6 +38,10 @@
     * キャプチャグループを再利用するには`\1`のように参照する
 * `rm -rf (ファイル名 or ディレクトリ名)`
     * 指定したファイルまたはディレクトリを強制削除する
+* `tar cavf hoge.tgz hoge/`
+    * アーカイブを作成する（create, auto compress, verbose, file）
+* `tar xvf hoge.tgz`
+    * アーカイブを展開する（extract, verbose, file）
 * `sh (シェルスクリプト名)`
     * 指定したシェルスクリプトを実行する
 * `vi (ファイル名)`
@@ -85,6 +89,8 @@
     * プロセスを停止
 * `df -h`
     * ディスク状態を確認する
+* `du -sh`
+    * ディレクトリ全体のサイズの確認
 * `uname -m`
     * アーキテクチャを表示する
 * `hostname`
@@ -106,6 +112,14 @@
 * `apt list --installed`
     * インストール済みパッケージ一覧を表示する
     * `apt`じゃないけど`dpkg -l`も見やすい
+* `apt search (パッケージ名)`
+    * パッケージを検索する
+* `apt show (パッケージ名)`
+    * パッケージの詳細情報を表示する
+* `apt-cache show (パッケージ名)`
+    * パッケージの詳細情報を表示する（apt-cacheコマンド）
+* `apt-cache search --names-only "(パッケージ名)"`
+    * パッケージ名のみを対象に検索する
 
 ## タブ補完
 `bash-completion`を導入することでタブ補完を有効にできる  
