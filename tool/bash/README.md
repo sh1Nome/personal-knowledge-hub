@@ -112,6 +112,8 @@
 * `apt list --installed`
     * インストール済みパッケージ一覧を表示する
     * `apt`じゃないけど`dpkg -l`も見やすい
+* `apt list --upgradable`
+    * アップグレード可能なパッケージ一覧を表示する
 * `apt search (パッケージ名)`
     * パッケージを検索する
 * `apt show (パッケージ名)`
