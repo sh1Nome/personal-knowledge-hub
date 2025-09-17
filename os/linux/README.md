@@ -15,8 +15,14 @@
   - ブートローダー: `/dev/sda`に GRUB をインストール
 - 追加・変更したアプリ・設定
   - インストール: git, chrome, vscode, docker, bash-completion, rfkill, systemd-timesyncd
-  - IME: 変換/無変換キーでオン・オフ切替
-  - キーボードショートカット: `Win + Space`でアプリケーションファインダー、`Win + 矢印`でタイリング
+  - キーボードショートカット（本当はdotfilesで管理したいけど、いい方法が思いつかなくて妥協）
+    - アプリケーションファインダー: `Super + Space`
+    - ウィンドウを最大化: `Super + Up`
+    - ウィンドウを隠す: `Super + Down`
+    - ウィンドウを画面左にタイル表示: `Super + Left`
+    - ウィンドウを画面右にタイル表示: `Super + Right`
+    - IMEオン: 変換
+    - IMEオフ: 無変換
   - Bluetooth: `rfkill unblock bluetooth`後、bluetoothctl でペアリング・信頼設定
     1. `rfkill unblock bluetooth`
     1. `bluetoochctl`
