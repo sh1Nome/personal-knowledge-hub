@@ -16,7 +16,8 @@
 - 追加・変更したアプリ・設定
   - インストール: git, chrome, vscode, vim-gtk3, docker, bash-completion, rfkill, systemd-timesyncd
   - キーボードショートカット（本当はdotfilesで管理したいけど、いい方法が思いつかなくて妥協）
-    - アプリケーションファインダー: `Super + Space`
+    - xfce4-appfinder: `Super + Space`
+    - xflock4: `Super + L`
     - ウィンドウを最大化: `Super + Up`
     - ウィンドウを隠す: `Super + Down`
     - ウィンドウを画面左にタイル表示: `Super + Left`
