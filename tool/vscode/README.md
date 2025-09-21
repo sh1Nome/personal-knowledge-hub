@@ -25,6 +25,7 @@ BIZ UDゴシックを導入（`setting.json`に記載済み、デフォルトの
 ## よく使うコマンドパレット
 * Format Document
 * Rebuild and Reopen in Container
+* Reopen Folder Locally
 * Open User Settings
 * Open Keyboard Shortcuts
 * Reset View Locations
