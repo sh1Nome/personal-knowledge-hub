@@ -24,6 +24,8 @@
 * postman
 * windows terminal
 * virtualbox
+* fakeSMTP
+* thunderbird
 
 ### Game
 * steam
