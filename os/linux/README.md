@@ -106,8 +106,7 @@ Unix 系 OS の標準仕様を定めた規格。異なる Unix 系 OS 間での�
 
 ### tasksel
 
-Debian系ディストリビューションでタスク（関連パッケージのセット）を簡単にインストールするためのツール。  
-例: `tasksel install lamp-server` でLAMP環境を一括インストール
+Debian系ディストリビューションでタスク（関連パッケージのセット）を簡単にインストールするためのツール。
 
 ### ACL（Access Control List）
 
