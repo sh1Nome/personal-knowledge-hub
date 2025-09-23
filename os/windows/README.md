@@ -25,7 +25,6 @@
 * windows terminal
 * virtualbox
 * fakeSMTP
-* thunderbird
 
 ### Game
 * steam
@@ -61,6 +60,7 @@
 * discord
 * twinkle tray
 * screen to gif
+* thunderbird
 
 ### Archive
 いいアプリだったけど使わなくなった奴
