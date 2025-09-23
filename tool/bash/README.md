@@ -97,14 +97,6 @@
     * ホスト名を表示する
 * `hostname -i`
     * IPアドレスを表示する
-* `hostname -f`
-    * FQDN（完全修飾ドメイン名）を表示する
-* `hostname -d`
-    * ドメイン名を表示する
-* `ip addr show`
-    * ネットワークインターフェースとIPアドレス情報を表示する
-* `ip route show`
-    * ルーティングテーブルを表示する
 * `shutdown -h now`
     * すぐにシャットダウンする
 * `reboot`
