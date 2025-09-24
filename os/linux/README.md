@@ -14,7 +14,7 @@
   - パッケージ: Debian デスクトップ環境と Xfce のみ
   - ブートローダー: `/dev/sda`に GRUB をインストール
 - 追加・変更したアプリ・設定
-  - インストール: git, chrome, vscode, vim-gtk3, docker, bash-completion, rfkill, systemd-timesyncd
+  - インストール: git, lazygit, chrome, vscode, vim-gtk3, docker, bash-completion, rfkill, systemd-timesyncd
   - キーボードショートカット（本当はdotfilesで管理したいけど、いい方法が思いつかなくて妥協）
     - xfce4-appfinder: `Super + Space`
     - xflock4: `Super + L`
