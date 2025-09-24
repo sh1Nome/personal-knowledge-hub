@@ -25,6 +25,7 @@
 * windows terminal
 * virtualbox
 * fakeSMTP
+* rufus
 
 ### Game
 * steam
