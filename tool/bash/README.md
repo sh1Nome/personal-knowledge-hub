@@ -153,3 +153,6 @@
 ```
 apt install bash-completion
 ```
+
+## シェル変更
+* ユーザーのログインシェルを変更: `chsh -s /bin/bash (ユーザー名)`
