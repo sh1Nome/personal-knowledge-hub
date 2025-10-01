@@ -40,29 +40,6 @@ Webの基盤となる通信プロトコル。ステートレスで、リクエ�
 ### HTTPS (HTTP Secure)
 HTTPをTLS/SSLで暗号化したプロトコル。通信内容の盗聴や改ざんを防ぐ。
 
-#### SSL/TLS証明書
-Webサイトの所有者を証明し、通信を暗号化するためのデジタル証明書。  
-認証局（CA）が発行し、ブラウザがその証明書を検証することで、安全な通信が可能になる。
-
-#### Let's Encrypt
-無料で自動化されたSSL/TLS証明書を提供する認証局。  
-* 無料: 証明書の発行・更新が無料
-* 自動化: Certbotなどのツールで証明書の取得・更新を自動化できる
-* 有効期限: 90日間（自動更新を推奨）
-* DV証明書: ドメイン検証（Domain Validation）のみ。組織検証（OV）や拡張検証（EV）には非対応
-
-Certbotを使った基本的な手順:
-```bash
-# Certbotのインストール（Debian/Ubuntu）
-apt install certbot python3-certbot-nginx
-
-# 証明書の取得と自動設定（Nginx）
-certbot --nginx -d example.com -d www.example.com
-
-# 証明書の自動更新設定（cronやsystemd timerで実行）
-certbot renew --dry-run
-```
-
 ### SSH (Secure Shell)
 暗号化された安全なリモートアクセスプロトコル。サーバーへの安全なアクセスや、ファイル転送に使用される。
 

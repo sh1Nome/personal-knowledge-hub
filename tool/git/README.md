@@ -55,21 +55,3 @@
 1. コマンドプロンプトで`ssh-keygen`を実行する
 1. `C:\Users\(ユーザ名)\.ssh\id_rsa.pub`の中身をすべてコピーする
 1. `GitHub`のユーザ設定でSSHKey（Authentication）を登録する
-
-## GitHubのリリース
-### 最新リリースのアセット取得方法
-GitHubの最新リリースページへのリンクは以下の形式で取得できる:
-* 最新リリースページ: `https://github.com/{owner}/{repo}/releases/latest`
-* 特定のアセットの直接ダウンロード: `https://github.com/{owner}/{repo}/releases/latest/download/{asset-name}`
-
-参考: [GitHub Docs - リリースへのリンク](https://docs.github.com/ja/repositories/releasing-projects-on-github/linking-to-releases)
-
-GitHub APIを使った取得方法:
-```bash
-# 最新リリース情報の取得
-curl -s https://api.github.com/repos/{owner}/{repo}/releases/latest
-
-# jqを使って特定のアセットのダウンロードURLを取得
-curl -s https://api.github.com/repos/{owner}/{repo}/releases/latest \
-  | jq -r '.assets[] | select(.name | contains("linux-amd64")) | .browser_download_url'
-```
