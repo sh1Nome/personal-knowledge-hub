@@ -28,3 +28,23 @@ Microsoftが開発したディレクトリサービス。ユーザー、コン�
 ### パスワードスプレー攻撃
 多数のユーザーアカウントに対して、よく使われる弱いパスワード（password123など）を試す攻撃手法。  
 ブルートフォース攻撃と異なり、各アカウントに対する試行回数を少なくしてロックアウトを回避する。
+
+## Webセキュリティ
+
+### Cookieのセキュリティ属性
+Cookieにはセキュリティリスクを軽減するための重要な属性がある。
+
+#### httpOnly属性
+JavaScriptからCookieにアクセスできないようにする属性。  
+XSS（Cross-Site Scripting）攻撃によるCookieの盗難を防ぐ。
+
+#### sameSite属性
+クロスサイトリクエストでCookieの送信を制御する属性。  
+CSRF（Cross-Site Request Forgery）攻撃を防ぐ。
+* `Strict`: 同一サイトからのリクエストのみCookieを送信
+* `Lax`: トップレベルナビゲーションとGETメソッドの場合のみ送信（デフォルト）
+* `None`: 常にCookieを送信（Secure属性が必須）
+
+#### secure属性
+HTTPS通信でのみCookieを送信する属性。  
+HTTP通信での盗聴や中間者攻撃からCookieを保護する。
