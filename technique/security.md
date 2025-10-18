@@ -41,6 +41,7 @@ XSS（Cross-Site Scripting）攻撃によるCookieの盗難を防ぐ。
 #### sameSite属性
 クロスサイトリクエストでCookieの送信を制御する属性。  
 CSRF（Cross-Site Request Forgery）攻撃を防ぐ。
+
 * `Strict`: 同一サイトからのリクエストのみCookieを送信
 * `Lax`: トップレベルナビゲーションとGETメソッドの場合のみ送信（デフォルト）
 * `None`: 常にCookieを送信（Secure属性が必須）
