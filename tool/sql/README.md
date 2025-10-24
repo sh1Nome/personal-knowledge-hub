@@ -1,0 +1,21 @@
+# SQL
+
+## DDL（Data Definition Language）
+データベースやテーブルなどの構造を定義する言語
+
+* `CREATE` - データベース、テーブル、インデックスなどを作成する
+* `ALTER` - 既存のテーブル構造を変更する
+* `DROP` - データベース、テーブル、インデックスなどを削除する
+
+## DCL（Data Control Language）
+データベースへのアクセス権限を制御する言語
+
+* `GRANT` - ユーザーに権限を付与する
+
+## DML（Data Manipulation Language）
+データの操作を行う言語
+
+* `INSERT` - テーブルにデータを挿入する
+* `SELECT` - テーブルからデータを取得する
+* `UPDATE` - テーブルのデータを更新する
+* `DELETE` - テーブルからデータを削除する

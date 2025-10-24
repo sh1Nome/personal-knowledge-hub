@@ -19,6 +19,8 @@ DockerとDocker Composeについて
     * コンテナでbashを実行する
 * `docker system prune -af`
     * 使用していないすべてのリソースを強制削除する
+* `docker system df -v`
+    * Dockerのディスク使用状況を詳細表示する
 * `docker history (イメージid)`
     * イメージのビルドログを出力する
 * `docker logs (コンテナID)`
