@@ -39,7 +39,7 @@
        1. `info (mac)`
   - 時計: `timedatectl set-ntp true`で NTP 有効化
   - ビープ音: `echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf`で無効化
-  - xfce4-power-manager: システムトレイアイコンの表示を有効化するには、設定から「一般」タブの「システムトレイにアイコンを表示する」にチェックを入れる
+  - xfce4-power-manager: システムトレイアイコンを有効化
 
 ## パッケージ管理システム
 
