@@ -43,6 +43,7 @@
 * microsoft pc manager
 * everything
 * サクラエディタ
+* google日本語入力
 * tablacus explorer
     * 追加したアドオン
         * Everything

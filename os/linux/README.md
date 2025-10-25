@@ -6,8 +6,10 @@
 
 - ISO イメージのダウンロードと検証
   - jaist 等のミラーから ISO を取得
-  - `sha512sum`でハッシュ値を計算し、公式 SHA512SUMS と一致するか確認
-  - SHA512SUMS と署名ファイル（.sign）を取得し、Debian 公式公開鍵で`gpg --verify`して検証
+  - `sha256sum`でハッシュ値を計算し、公式 SHA256SUMS と一致するか確認
+    - sha256sum: ISOイメージファイルの整合性を検証する。ダウンロード中の破損や改ざんがないかを確認
+  - SHA256SUMS と署名ファイル（.sign）を取得し、Debian 公式公開鍵で`gpg --verify`して検証
+    - gpg: チェックサムファイル（SHA256SUMS）自体が正規のものであることを検証する。公式の署名により、チェックサムファイルの信頼性を確保
 - グラフィックインストーラーの主な設定
   - パーティショニング: LVM 有効化、全ファイルを 1 パーティションに
   - ファイルシステム: ext4
@@ -37,6 +39,7 @@
        1. `info (mac)`
   - 時計: `timedatectl set-ntp true`で NTP 有効化
   - ビープ音: `echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf`で無効化
+  - xfce4-power-manager: システムトレイアイコンを有効化
 
 ## パッケージ管理システム
 
