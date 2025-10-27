@@ -16,7 +16,7 @@
   - パッケージ: Debian デスクトップ環境と Xfce のみ
   - ブートローダー: `/dev/sda`に GRUB をインストール
 - 追加・変更したアプリ・設定
-  - インストール: git, lazygit, chrome, vscode, vim-gtk3, neovim, docker, bash-completion, xclip, rfkill, systemd-timesyncd
+  - インストール: git, lazygit, chrome, vscode, vim-gtk3, neovim, docker, bash-completion, xclip, blueman, rfkill, systemd-timesyncd
   - キーボードショートカット（本当はdotfilesで管理したいけど、いい方法が思いつかなくて妥協）
     - xfce4-appfinder: `Super + Space`
     - xflock4: `Super + L`
@@ -26,7 +26,7 @@
     - ウィンドウを画面右にタイル表示: `Super + Right`
     - IMEオン: 変換
     - IMEオフ: 無変換
-  - Bluetooth: `rfkill unblock bluetooth`後、bluetoothctl でペアリング・信頼設定
+  - Bluetooth: `rfkill unblock bluetooth`後、bluetoothctl でペアリング・信頼設定（bluemanも導入済み）
     1. `rfkill unblock bluetooth`
     1. `bluetoochctl`
        1. `power on`
