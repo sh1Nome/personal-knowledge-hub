@@ -59,6 +59,19 @@ Debian 系のディストリビューションで利用されるパッケージ�
 
 apt-get の後継となるパッケージ管理システム。apt-get の機能に加えて、プログレスバー表示などの機能が追加されている。
 
+##### aptリポジトリの管理
+* リポジトリの追加
+    * `sudo add-apt-repository (リポジトリ)`
+    * 設定ファイルに直接追加: `/etc/apt/sources.list` または `/etc/apt/sources.list.d/` 配下のファイル
+* リポジトリの削除
+    * `sudo add-apt-repository --remove (リポジトリ)`
+    * 設定ファイルから該当行を削除
+* GPG鍵の追加
+    * `curl -fsSL (鍵のURL) | sudo gpg --dearmor -o /etc/apt/keyrings/(ファイル名).gpg`
+    * 古い方法: `wget -qO- (鍵のURL) | sudo apt-key add -`（apt-keyは非推奨）
+* リポジトリ情報の更新
+    * `sudo apt update`
+
 ### Red Hat 系
 
 #### rpm
@@ -118,6 +131,19 @@ asdfの後継的な位置づけのバージョン管理ツール。
 Portable Operating System Interface の略。  
 Unix 系 OS の標準仕様を定めた規格。異なる Unix 系 OS 間での移植性を向上させることを目的としている。  
 システムコール、コマンドライン、シェルなどのインターフェースを標準化している。
+
+## UNIX
+
+### UNIX哲学
+* 1つのことをうまくやる小さなプログラムを作る
+* プログラムを組み合わせて動くように作る
+* すべてをテキストストリームで扱う（ユニバーサルインターフェース）
+* シンプルさを重視する
+
+### BSD（Berkeley Software Distribution）
+カリフォルニア大学バークレー校で開発されたUnixの派生OS。  
+TCP/IPスタックなど多くの重要な機能を追加し、現代のUnix系OSに大きな影響を与えた。  
+FreeBSD、OpenBSD、NetBSDなどの派生系統が現在も開発されている。
 
 ## システム管理ツール
 
