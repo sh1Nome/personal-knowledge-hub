@@ -185,7 +185,7 @@
 * apt-cache: パッケージキャッシュの検索や情報表示に特化したコマンド
 
 ### 追加リポジトリ
-追加のパッケージリポジトリは `/etc/apt/sources.list.d/` ディレクトリに `.list` ファイルとして配置する
+追加のパッケージリポジトリは `/etc/apt/sources.list` または `/etc/apt/sources.list.d/` ディレクトリに `.list` ファイルとして配置する
 
 ## タブ補完
 `bash-completion`を導入することでタブ補完を有効にできる  

@@ -60,17 +60,13 @@ Debian 系のディストリビューションで利用されるパッケージ�
 apt-get の後継となるパッケージ管理システム。apt-get の機能に加えて、プログレスバー表示などの機能が追加されている。
 
 ##### aptリポジトリの管理
-* リポジトリの追加
-    * `sudo add-apt-repository (リポジトリ)`
-    * 設定ファイルに直接追加: `/etc/apt/sources.list` または `/etc/apt/sources.list.d/` 配下のファイル
-* リポジトリの削除
-    * `sudo add-apt-repository --remove (リポジトリ)`
-    * 設定ファイルから該当行を削除
-* GPG鍵の追加
-    * `curl -fsSL (鍵のURL) | sudo gpg --dearmor -o /etc/apt/keyrings/(ファイル名).gpg`
-    * 古い方法: `wget -qO- (鍵のURL) | sudo apt-key add -`（apt-keyは非推奨）
-* リポジトリ情報の更新
-    * `sudo apt update`
+* リポジトリの設定ファイル
+    * `/etc/apt/sources.list` または `/etc/apt/sources.list.d/` 配下の `.list` ファイル
+    * リポジトリの追加・削除は設定ファイルを直接編集する
+* GPG鍵の保存場所
+    * `/etc/apt/keyrings/`
+    * `/etc/apt/trusted.gpg.d/`
+    * `/usr/share/keyrings/`
 
 ### Red Hat 系
 
