@@ -16,7 +16,7 @@
   - パッケージ: Debian デスクトップ環境と Xfce のみ
   - ブートローダー: `/dev/sda`に GRUB をインストール
 - 追加・変更したアプリ・設定
-  - インストール: git, lazygit, chrome, vscode, vim-gtk3, neovim, docker, bash-completion, xclip, blueman, rfkill, systemd-timesyncd, GitHub Copilot, nvm (Node.js)
+  - インストール: git, lazygit, gh, chrome, vscode, vim-gtk3, neovim, docker, bash-completion, xclip, blueman, rfkill, systemd-timesyncd, GitHub Copilot, nvm (Node.js)
   - キーボードショートカット（本当はdotfilesで管理したいけど、いい方法が思いつかなくて妥協）
     - xfce4-appfinder: `Super + Space`
     - xflock4: `Super + L`
@@ -40,6 +40,9 @@
   - 時計: `timedatectl set-ntp true`で NTP 有効化
   - ビープ音: `echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf`で無効化
   - xfce4-power-manager: システムトレイアイコンを有効化
+  - 端末設定
+    - 次のタブ: `<C-Tab>`
+    - 前のタブ: `<C-S-Tab>`
 
 ## パッケージ管理システム
 
