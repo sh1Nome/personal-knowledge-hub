@@ -14,6 +14,7 @@
 ### IT
 * git
 * tortoisegit
+* glab
 * winscp
 * winmerge
 * rlogin
