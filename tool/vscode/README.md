@@ -21,6 +21,8 @@ BIZ UDゴシックを導入（`setting.json`に記載済み、デフォルトの
 * 呼び出し階層を表示：`Shift + Alt + h`
 * インポートの整理：`Shift + Alt + o`
 * ドキュメントのフォーマット：`Shift + Alt + f`
+* 次のターミナルグループ: `Ctrl + PgDn`
+* 前のターミナルグループ: `Ctrl + PgUp`
 
 ## よく使うコマンドパレット
 * Format Document
