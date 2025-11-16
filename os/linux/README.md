@@ -16,7 +16,18 @@
   - パッケージ: Debian デスクトップ環境と Xfce のみ
   - ブートローダー: `/dev/sda`に GRUB をインストール
 - 追加・変更したアプリ・設定
-  - インストール: git, lazygit, gh, chrome, vscode, vim-gtk3, neovim, docker, bash-completion, xclip, blueman, rfkill, systemd-timesyncd, GitHub Copilot, nvm (Node.js)
+  - インストール
+    - git
+    - chrome
+    - vscode
+    - vim-gtk3
+    - docker
+    - mise
+    - bash-completion
+    - xclip
+    - blueman
+    - rfkill
+    - systemd-timesyncd
   - キーボードショートカット（本当はdotfilesで管理したいけど、いい方法が思いつかなくて妥協）
     - xfce4-appfinder: `Super + Space`
     - xflock4: `Super + L`
@@ -67,9 +78,15 @@ apt-get の後継となるパッケージ管理システム。apt-get の機能�
     * `/etc/apt/sources.list` または `/etc/apt/sources.list.d/` 配下の `.list` ファイル
     * リポジトリの追加・削除は設定ファイルを直接編集する
 * GPG鍵の保存場所
+    * `/etc/apt/sources.list.d/`配下の`.list`ファイルにGPG鍵の場所が書かれている
     * `/etc/apt/keyrings/`
     * `/etc/apt/trusted.gpg.d/`
     * `/usr/share/keyrings/`
+* 追加したリポジトリ
+    * google-chrome.list
+    * docker.list
+    * vscode.sources
+    * mise.list
 
 ### Red Hat 系
 
