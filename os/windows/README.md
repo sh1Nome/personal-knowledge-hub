@@ -14,7 +14,6 @@
 ### IT
 * git
 * tortoisegit
-* pwsh
 * mise
 * glab
 * winscp
