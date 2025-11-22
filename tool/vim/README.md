@@ -59,6 +59,8 @@ VimとしているがVi, VSCode Vim, NeoVimなど関係なく書いている
 * 1文字置換 - `r{char}`
 * 置換 - `:%s/{before}/{after}/g`
 * 確認しながら置換 - `:%s/{before}/{after}/gc`
+* キャプチャグループを使った置換 - `:%s/\(hoge\)/\1fuga/g`
+    * `\(hoge\)`でhogeをキャプチャし、`\1`で再利用することで、hogeがhogefugaになる
 * 検索文字列を置換 - `/{before}<CR>cgn{after}`
     * `:s`と違いvimのモーションやドットリピートを活用できる
 * カーソル配下の文字を置換 - `*Ncgn{after}`
