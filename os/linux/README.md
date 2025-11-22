@@ -23,6 +23,7 @@
     - vim-gtk3
     - docker
     - mise
+    - ffmpeg
     - bash-completion
     - xclip
     - blueman
