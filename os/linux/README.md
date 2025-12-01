@@ -47,6 +47,17 @@
     - 端末設定
       - 次のタブ: `<C-Tab>`
       - 前のタブ: `<C-S-Tab>`
+  - パネル
+    - アクションボタン
+    - システム負荷モニター
+    - セパレーター（拡張あり）
+    - ステータストレイプラグイン
+      - ネットワーク接続
+      - Bluetoothマネージャー
+    - PulseAudioプラグイン
+    - 電源管理プラグイン
+    - 時計
+    - デスクトップ通知プラグイン
   - Bluetooth: `rfkill unblock bluetooth`後、bluetoothctl でペアリング・信頼設定（bluemanも導入済み）
     1. `rfkill unblock bluetooth`
     1. `bluetoochctl`
@@ -60,7 +71,6 @@
        1. `info (mac)`
   - 時計: `timedatectl set-ntp true`で NTP 有効化
   - ビープ音: `echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf`で無効化
-  - xfce4-power-manager: システムトレイアイコンを有効化
 
 ## パッケージ管理システム
 
