@@ -30,14 +30,23 @@
     - rfkill
     - systemd-timesyncd
   - キーボードショートカット（本当はdotfilesで管理したいけど、いい方法が思いつかなくて妥協）
-    - xfce4-appfinder: `Super + Space`
-    - xflock4: `Super + L`
-    - ウィンドウを最大化: `Super + Up`
-    - ウィンドウを隠す: `Super + Down`
-    - ウィンドウを画面左にタイル表示: `Super + Left`
-    - ウィンドウを画面右にタイル表示: `Super + Right`
-    - IMEオン: 変換
-    - IMEオフ: 無変換
+    - アプリケーションショートカット
+      - xfce4-appfinder: `Super + Space`
+      - xflock4: `Super + L`
+      - 音量（[device](../../device/README.md)を参照）
+        - `pactl set-sink-volume @DEFAULT_SINK@ +5%`: `AudioRaiseVolume`
+        - `pactl set-sink-volume @DEFAULT_SINK@ -5%`: `AudioLowerVolume`
+    - ウィンドウマネージャー
+      - ウィンドウを最大化: `Super + Up`
+      - ウィンドウを隠す: `Super + Down`
+      - ウィンドウを画面左にタイル表示: `Super + Left`
+      - ウィンドウを画面右にタイル表示: `Super + Right`
+    - IME
+      - IMEオン: 変換
+      - IMEオフ: 無変換
+    - 端末設定
+      - 次のタブ: `<C-Tab>`
+      - 前のタブ: `<C-S-Tab>`
   - Bluetooth: `rfkill unblock bluetooth`後、bluetoothctl でペアリング・信頼設定（bluemanも導入済み）
     1. `rfkill unblock bluetooth`
     1. `bluetoochctl`
@@ -52,9 +61,6 @@
   - 時計: `timedatectl set-ntp true`で NTP 有効化
   - ビープ音: `echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf`で無効化
   - xfce4-power-manager: システムトレイアイコンを有効化
-  - 端末設定
-    - 次のタブ: `<C-Tab>`
-    - 前のタブ: `<C-S-Tab>`
 
 ## パッケージ管理システム
 
