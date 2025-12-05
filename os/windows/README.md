@@ -25,6 +25,7 @@
     * debian
 * postman
 * windows terminal
+    * `<C-v>`で貼り付けを削除
 * virtualbox
 * fakeSMTP
 * rufus
