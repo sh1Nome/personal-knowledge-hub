@@ -74,3 +74,13 @@
 * upnote
 * vlc media player
 * beutl
+
+## cmd
+### ヘルプ
+* `(command) /h`
+    * コマンドのヘルプを表示する
+
+## PowerShell
+### ヘルプ
+* `help (command)`
+    * コマンドのヘルプを表示する
