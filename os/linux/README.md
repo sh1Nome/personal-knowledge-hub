@@ -70,6 +70,10 @@
        1. `scan off`
        1. `trust (mac)`
        1. `info (mac)`
+  - マウスとタッチパッド
+    - タッチパッド
+      - 「タッチパッドでタップをクリック」を有効化
+      - クリック方法は「1、2、3本の指を左クリック、右クリック、中クリックとして使用する」を選択
   - 時計: `timedatectl set-ntp true`で NTP 有効化
   - ビープ音: `echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf`で無効化
 
