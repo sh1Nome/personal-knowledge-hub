@@ -33,6 +33,7 @@
     - アプリケーションショートカット
       - xfce4-popup-whiskermenu : `Super + Space`
       - xflock4: `Super + L`
+      - xfce4-clipman-history: `Super + V`
       - 音量（[device](../../device/README.md)を参照）
         - `pactl set-sink-volume @DEFAULT_SINK@ +5%`: `AudioRaiseVolume`
         - `pactl set-sink-volume @DEFAULT_SINK@ -5%`: `AudioLowerVolume`
@@ -52,6 +53,7 @@
     - システム負荷モニター
     - 最新の天気
     - セパレーター（拡張あり）
+    - Clipman
     - ステータストレイプラグイン
       - ネットワーク接続
       - Bluetoothマネージャー
