@@ -31,7 +31,7 @@
     - systemd-timesyncd
   - キーボードショートカット（本当はdotfilesで管理したいけど、いい方法が思いつかなくて妥協）
     - アプリケーションショートカット
-      - xfce4-appfinder: `Super + Space`
+      - xfce4-popup-whiskermenu : `Super + Space`
       - xflock4: `Super + L`
       - 音量（[device](../../device/README.md)を参照）
         - `pactl set-sink-volume @DEFAULT_SINK@ +5%`: `AudioRaiseVolume`
@@ -47,8 +47,8 @@
     - 端末設定
       - 次のタブ: `<C-Tab>`
       - 前のタブ: `<C-S-Tab>`
-  - パネル（下に表示、行サイズ35px）
-    - アクションボタン
+  - パネルは1つだけ（下に表示、行サイズ35px）
+    - Whiskermenu
     - システム負荷モニター
     - 最新の天気
     - セパレーター（拡張あり）
