@@ -59,6 +59,9 @@
     - 電源管理プラグイン
     - 時計
     - デスクトップ通知プラグイン
+  - ウィンドウマネージャー（詳細）
+    - アクセシビリティ
+      - 「いずれかのマウスボタンが押されている時にウィンドウを前面に出す」をオフ
   - Bluetooth: `rfkill unblock bluetooth`後、bluetoothctl でペアリング・信頼設定（bluemanも導入済み）
     1. `rfkill unblock bluetooth`
     1. `bluetoochctl`
