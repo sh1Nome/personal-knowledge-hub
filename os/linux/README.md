@@ -26,12 +26,13 @@
     - ffmpeg
     - bash-completion
     - xclip
+    - xcape
     - blueman
     - rfkill
     - systemd-timesyncd
   - キーボードショートカット（本当はdotfilesで管理したいけど、いい方法が思いつかなくて妥協）
     - アプリケーションショートカット
-      - xfce4-popup-whiskermenu : `Super + Space`
+      - xfce4-popup-whiskermenu : `Alt + F1`（xcapeにより実質Superキー）
       - xflock4: `Super + L`
       - xfce4-clipman-history: `Super + V`
       - 音量（[device](../../device/README.md)を参照）
@@ -64,6 +65,10 @@
   - ウィンドウマネージャー（詳細）
     - アクセシビリティ
       - 「いずれかのマウスボタンが押されている時にウィンドウを前面に出す」をオフ
+  - セッションと起動
+    - 自動開始アプリケーション
+      - xcape（Superキーを単独で押したときにAlt+F1とする）
+        - `xcape -e 'Super_L=Alt_L|F1'`
   - Bluetooth: `rfkill unblock bluetooth`後、bluetoothctl でペアリング・信頼設定（bluemanも導入済み）
     1. `rfkill unblock bluetooth`
     1. `bluetoochctl`
