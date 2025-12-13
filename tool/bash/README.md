@@ -16,6 +16,8 @@
     * コマンドの実行結果を標準出力とファイルの両方に出力する
 * `find . -type f -iname "(検索文字列)"`
     * カレントディレクトリ以下のファイルを大文字小文字無視で検索する
+* `find . -name .git -prune -o -print`
+    * カレントディレクトリ以下の`.git`以外のファイル・ディレクトリを検索する
 * `type (コマンド)`
     * 指定したコマンドについて表示する（コマンドの場所など）
 * `wget (リンク)`
@@ -44,6 +46,8 @@
     * 指定したファイルまたはディレクトリを強制削除する
 * `tar cavf hoge.tgz hoge/`
     * アーカイブを作成する（create, auto compress, verbose, file）
+* `tar cavf hoge.tgz -C /fuga hoge/`
+    * `-C /fuga`で`/fuga`ディレクトリに移動してから`hoge/`を圧縮する
 * `tar xvf hoge.tgz`
     * アーカイブを展開する（extract, verbose, file）
 * `unzip (ファイル名).zip`
