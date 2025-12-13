@@ -65,8 +65,7 @@ Dockerはiptables(nftables)に独自ルールを追加する。
 
 ## DinD（Docker in Docker）
 Dockerコンテナ内でDockerデーモンを実行する方式。  
-コンテナ内で完全に独立したDocker環境を構築できる。  
-特権モードでの実行が必要で、セキュリティリスクが高い。
+コンテナ内で完全に独立したDocker環境を構築できる
 
 ## DooD（Docker outside of Docker）
 ホストのDockerソケットをコンテナにマウントし、ホストのDockerデーモンを利用する方式。  
