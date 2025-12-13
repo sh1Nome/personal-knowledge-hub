@@ -44,6 +44,8 @@
     * 指定したファイルまたはディレクトリを強制削除する
 * `tar cavf hoge.tgz hoge/`
     * アーカイブを作成する（create, auto compress, verbose, file）
+* `tar cavf hoge.tgz -C /fuga hoge/`
+    * `/fuga`に移動してから`hoge/`を圧縮する
 * `tar xvf hoge.tgz`
     * アーカイブを展開する（extract, verbose, file）
 * `unzip (ファイル名).zip`
