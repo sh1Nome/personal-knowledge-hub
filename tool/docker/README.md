@@ -62,3 +62,11 @@ Dockerはiptables(nftables)に独自ルールを追加する。
 `-p 127.0.0.1:8080:80`とすることでホストOSからしかアクセスできないようにできる。
 
 参考: https://docs.docker.com/engine/network/port-publishing/
+
+## DinD（Docker in Docker）
+Dockerコンテナ内でDockerデーモンを実行する方式。  
+コンテナ内で完全に独立したDocker環境を構築できる
+
+## DooD（Docker outside of Docker）
+ホストのDockerソケットをコンテナにマウントし、ホストのDockerデーモンを利用する方式。  
+コンテナからホストのDockerを操作できるため、DinDより軽量でシンプル。
