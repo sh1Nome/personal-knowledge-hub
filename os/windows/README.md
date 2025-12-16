@@ -82,8 +82,13 @@
 ### ヘルプ
 * `(command) /h`
     * コマンドのヘルプを表示する
+* `where (command)`
+    * コマンドのパスを表示する
 
 ## PowerShell
 ### ヘルプ
 * `help (command)`
     * コマンドのヘルプを表示する
+* `Get-Command (command)`
+    * コマンドのパスを表示する
+    * （`where.exe (command)`）でもOK
