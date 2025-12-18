@@ -88,6 +88,8 @@
       - 「アダプティブポインターの加速」を無効化
   - 時計: `timedatectl set-ntp true`で NTP 有効化
   - ビープ音: `echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf`で無効化
+- xfce4の設定の初期化方法
+  - GUIから設定できるものは`~/.config/xfce4/xfconf/xfce-perchannel-xml`にある
 
 ## パッケージ管理システム
 
