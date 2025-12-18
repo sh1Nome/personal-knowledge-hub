@@ -19,6 +19,7 @@
   - インストール
     - fcitx5
     - fcitx5-mozc
+    - wezterm
     - git
     - chrome
     - vscode
@@ -45,9 +46,6 @@
       - ウィンドウを隠す: `Super + Down`
       - ウィンドウを画面左にタイル表示: `Super + Left`
       - ウィンドウを画面右にタイル表示: `Super + Right`
-    - 端末設定
-      - 次のタブ: `<C-Tab>`
-      - 前のタブ: `<C-S-Tab>`
   - パネルは1つだけ（下に表示、行サイズ35px）
     - Whiskermenu
     - システム負荷モニター
