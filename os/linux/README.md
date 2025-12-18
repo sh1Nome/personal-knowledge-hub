@@ -122,6 +122,7 @@ apt-get の後継となるパッケージ管理システム。apt-get の機能�
     * docker.list
     * vscode.sources
     * mise.list
+    * wezterm.list
 
 ### Red Hat 系
 
