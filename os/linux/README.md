@@ -17,6 +17,8 @@
   - ブートローダー: `/dev/sda`に GRUB をインストール
 - 追加・変更したアプリ・設定
   - インストール
+    - fcitx5
+    - fcitx5-mozc
     - git
     - chrome
     - vscode
@@ -43,9 +45,6 @@
       - ウィンドウを隠す: `Super + Down`
       - ウィンドウを画面左にタイル表示: `Super + Left`
       - ウィンドウを画面右にタイル表示: `Super + Right`
-    - IME
-      - IMEオン: 変換
-      - IMEオフ: 無変換
     - 端末設定
       - 次のタブ: `<C-Tab>`
       - 前のタブ: `<C-S-Tab>`
