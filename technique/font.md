@@ -2,6 +2,12 @@
 
 日本語をサポートする主要なフォントファミリーとその特徴。
 
+## コマンド
+* `fc-list :spacing=mono` - 等幅フォントのリストを表示
+* `fc-list :lang=ja` - 日本語対応のフォントを表示
+* `fc-query /path/to/ttf | grep spacing` - 等幅フォントか確認
+    * 100ならmono, 90ならdual
+
 ## IPA フォント
 
 独立行政法人情報処理推進機構（IPA）が提供する日本語フォント。  
