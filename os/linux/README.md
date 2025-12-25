@@ -178,6 +178,19 @@ asdfの後継的な位置づけのバージョン管理ツール。
 2025年時点で使えるバックエンドが増えており、aquaが主流となっている。  
 npmパッケージやgithubリリースからバイナリを落とすこともできる。
 
+## IME（Input Method Editor）
+
+### fcitx5
+Linux環境で利用される入力メソッドフレームワーク。最近はこれが使われることが多い。
+
+### uim
+Linux環境で利用される入力メソッドフレームワーク。かつてよく使われていた。
+
+### im-config
+入力メソッドフレームワークの設定を管理するツール。
+* `im-config -n fcitx5` - IMフレームワークをfcitx5に設定
+* `im-config -m` - 現在の設定値を表示
+
 ## POSIX
 
 Portable Operating System Interface の略。  

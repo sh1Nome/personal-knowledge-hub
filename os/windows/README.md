@@ -32,6 +32,7 @@
 * virtualbox
 * fakeSMTP
 * rufus
+* wezterm
 
 ### Game
 * steam
@@ -92,6 +93,14 @@
 * `Get-Command (command)`
     * コマンドのパスを表示する
     * （`where.exe (command)`）でもOK
+
+## winget
+パッケージ管理ツール。
+* `winget upgrade --id パッケージ名` - パッケージをアップデート
+* `winget install --id パッケージ名` - パッケージをインストール
+* `winget uninstall --id パッケージ名` - パッケージをアンインストール
+* `winget list` - インストール済みパッケージを表示
+* `winget list --upgrade-available` - アップデートできるパッケージ一覧を表示
 
 ## ssh
 

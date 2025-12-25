@@ -1,4 +1,7 @@
 # Chrome
+## DevTools
+* Network → throttling - ネットワーク速度を制限できる
+
 ## 拡張機能
 * Chrome Remote Desktop
 * Google オフライン ドキュメント
