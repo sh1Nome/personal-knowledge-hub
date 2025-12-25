@@ -197,6 +197,25 @@ Portable Operating System Interface の略。
 Unix 系 OS の標準仕様を定めた規格。異なる Unix 系 OS 間での移植性を向上させることを目的としている。  
 システムコール、コマンドライン、シェルなどのインターフェースを標準化している。
 
+## systemd
+
+サービスユニットファイルの例。  
+詳細は`man systemd.service`で確認。
+
+```
+[Unit]
+Description=Foo
+
+[Service]
+ExecStart=/usr/sbin/foo-daemon
+
+[Install]
+WantedBy=multi-user.target
+```
+
+配置場所は`/etc/systemd/system`。  
+詳細は`man systemd.unit`を確認。
+
 ## UNIX
 
 ### UNIX哲学
