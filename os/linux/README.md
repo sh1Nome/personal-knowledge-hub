@@ -201,7 +201,13 @@ Unix 系 OS の標準仕様を定めた規格。異なる Unix 系 OS 間での�
 
 サービスユニットファイルの例。  
 他にも`Requires`や`Wants`で依存関係を設定できる。  
-詳細は`man systemd.service`で確認。
+Typeは以下の判断基準で選択する。  
+
+* simple: 常駐プロセスの場合
+* forking: 親プロセスが子プロセスを常駐させ、親プロセスが終了する場合
+* oneshot: 1回実行できれば成功の場合
+
+その他詳細は`man systemd.service`で確認。
 
 ```
 [Unit]
@@ -210,6 +216,8 @@ After=bar.service
 Before=baz.service
 
 [Service]
+User=user
+Type=simple
 ExecStart=/usr/sbin/foo-daemon
 
 [Install]
