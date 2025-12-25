@@ -146,6 +146,8 @@
     * systemdのデーモン設定を再読み込みする
 * `systemctl enable (サービス名)`
     * 指定したサービスを自動起動するように設定する
+* `systemctl list-unit-files --type=service --state=enabled`
+    * 自動起動設定済みのサービス一覧
 * `free -h`
     * メモリの使用状況を確認する
 * `test -f (ファイル)`
