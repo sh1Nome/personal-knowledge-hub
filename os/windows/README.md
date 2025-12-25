@@ -32,6 +32,7 @@
 * virtualbox
 * fakeSMTP
 * rufus
+* wezterm
 
 ### Game
 * steam
