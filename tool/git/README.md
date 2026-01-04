@@ -227,6 +227,8 @@
     * `git config --global --unset (設定名)`
 * 設定の一覧
     * `git config --list --global`
+* 設定値の確認
+    * `git config get (設定名)`
 
 ## contribディレクトリ
 コミュニティが寄贈したスクリプトやツールを格納するディレクトリ。手動でインストールする必要があり、公式サポート外です。
