@@ -16,3 +16,24 @@
 ## PoC（Proof of Concept）
 概念実証。新しい技術やアイデアが実現可能かを検証するための試作や実験。  
 本格的な開発に進む前に技術的な実現可能性やビジネス価値を確認するために行う。
+
+## クラウドサービスモデル
+### SaaS（Software as a Service）
+インターネット経由でソフトウェアを提供するサービスモデル。  
+ユーザーはソフトウェアのインストールや保守を行わず、ブラウザなどからサービスを利用する。  
+例: Google Workspace、Salesforce、Microsoft 365
+
+### PaaS（Platform as a Service）
+アプリケーション開発・実行環境を提供するサービスモデル。  
+インフラの管理はサービス提供者が行い、開発者はアプリケーション開発に集中できる。  
+例: Google App Engine、Heroku、AWS Elastic Beanstalk
+
+### IaaS（Infrastructure as a Service）
+仮想化されたコンピューティングリソース（サーバー、ストレージ、ネットワーク）を提供するサービスモデル。  
+ユーザーはOS以上の層を管理し、柔軟なシステム構築が可能。  
+例: AWS EC2、Google Compute Engine、Microsoft Azure VM
+
+## IaC（Infrastructure as Code）
+インフラストラクチャをコードとして定義・管理する手法。  
+サーバー、ネットワーク、ストレージなどの構成をコードで記述し、バージョン管理や自動化を実現する。  
+例: Terraform、AWS CloudFormation、Ansible
