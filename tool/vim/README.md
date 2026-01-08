@@ -54,7 +54,9 @@ VimとしているがVi, VSCode Vim, NeoVimなど関係なく書いている
     * `F`で逆方向にジャンプ
     * `;` で次の `{char}` へジャンプ
     * `,` で前の `{char}` へジャンプ
-* grep - `:grep pattern file`
+* 外部grep - `:grep pattern file`
+* vimgrep - `:vim pattern /path/to/dir`
+    * quickfix listが更新される
 
 ### 置換
 * 1文字置換 - `r{char}`
@@ -111,6 +113,7 @@ VimとしているがVi, VSCode Vim, NeoVimなど関係なく書いている
 * 定義にジャンプ - `gd`
 * ファイルをジャンプして開く - `gf`
 * マウスをホバー（おそらくVSCode Vim特有） - `gh`
+* quickfixウィンドウを開く - `:cw`
 
 ### モード切替
 * ノーマルモード - `Esc`
