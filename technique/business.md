@@ -21,17 +21,17 @@
 ### SaaS（Software as a Service）
 インターネット経由でソフトウェアを提供するサービスモデル。  
 ユーザーはソフトウェアのインストールや保守を行わず、ブラウザなどからサービスを利用する。  
-例: Google Workspace、Salesforce、Microsoft 365
+例: AWS WorkDocs
 
 ### PaaS（Platform as a Service）
 アプリケーション開発・実行環境を提供するサービスモデル。  
 インフラの管理はサービス提供者が行い、開発者はアプリケーション開発に集中できる。  
-例: Google App Engine、Heroku、AWS Elastic Beanstalk
+例: AWS Elastic Beanstalk
 
 ### IaaS（Infrastructure as a Service）
 仮想化されたコンピューティングリソース（サーバー、ストレージ、ネットワーク）を提供するサービスモデル。  
 ユーザーはOS以上の層を管理し、柔軟なシステム構築が可能。  
-例: AWS EC2、Google Compute Engine、Microsoft Azure VM
+例: AWS EC2
 
 ## IaC（Infrastructure as Code）
 インフラストラクチャをコードとして定義・管理する手法。  
