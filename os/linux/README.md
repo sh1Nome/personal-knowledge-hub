@@ -39,8 +39,8 @@
       - xflock4: `Super + L`
       - xfce4-clipman-history: `Super + V`
       - 音量（[device](../../device/README.md)を参照）
-        - `pactl set-sink-volume @DEFAULT_SINK@ +5%`: `AudioRaiseVolume`
-        - `pactl set-sink-volume @DEFAULT_SINK@ -5%`: `AudioLowerVolume`
+        - `sh -c 'pactl set-sink-mute @DEFAULT_SINK@ false && pactl set-sink-volume @DEFAULT_SINK@ +5%'`: `AudioRaiseVolume`
+        - `sh -c 'pactl set-sink-mute @DEFAULT_SINK@ false && pactl set-sink-volume @DEFAULT_SINK@ -5%'`: `AudioLowerVolume`
     - ウィンドウマネージャー
       - ウィンドウを最大化: `Super + Up`
       - ウィンドウを隠す: `Super + Down`
