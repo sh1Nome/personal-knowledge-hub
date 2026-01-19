@@ -25,6 +25,13 @@
     * キーシーケンスの変更
 1. どちらも「割り当てなし」に設定する
 
+## ショートカット
+
+* `Ctrl + Shift + Esc`
+    * タスクマネージャーを起動する
+* `Ctrl + Alt + Delete`
+    * セキュリティオプション画面を開く
+
 ## 導入アプリ
 ### IT
 * git
@@ -113,6 +120,23 @@
 * `winget uninstall --id パッケージ名` - パッケージをアンインストール
 * `winget list` - インストール済みパッケージを表示
 * `winget list --upgrade-available` - アップデートできるパッケージ一覧を表示
+
+## msys2
+
+Windows向けのソフトウェア構築環境。LinuxライクなツールとCMakeなどのネイティブビルドツールが含まれる。
+
+### インストール方法
+
+1. https://www.msys2.org/ から以下の3つをダウンロード
+    * `msys2-x86_64-yyyymmdd.exe`
+    * `msys2-x86_64-yyyymmdd.exe.sig`
+    * `msys2-x86_64-yyyymmdd.exe.sha256`
+2. SHA256で整合性、GPGで信頼性をチェック
+3. インストーラーを実行
+
+### 設定
+
+* `MSYS2_PATH_TYPE`を設定するとPATHを制御できる
 
 ## WSL2
 ### インストール
