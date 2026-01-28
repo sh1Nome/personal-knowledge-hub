@@ -51,6 +51,8 @@
     * `git remote -v`
 * リモートリポジトリを設定
     * `git remote add origin (url)`
+* リモートリポジトリを削除
+    * `git remote remove origin (url)`
 * リモートリポジトリのURLを変更
     * `git remote set-url origin (url)`
 
@@ -249,6 +251,39 @@
 
 ## contribディレクトリ
 コミュニティが寄贈したスクリプトやツールを格納するディレクトリ。手動でインストールする必要があり、公式サポート外です。
+
+## 2つのリポジトリの統合など
+
+履歴を保持することが前提。
+
+### repoAのサブディレクトリにrepoBを統合する場合
+
+```
+# repoAに移動
+cd /path/to/repoA
+
+# repoAにrepoBディレクトリを作成しgit管理
+mkdir repoB && touch repoB/.gitkeep
+git add --all && git commit -m "repoB init"
+
+# repoBをremoteに登録しfetch
+git remote add repoB /path/to/repoB
+git fetch
+
+# repoBディレクトリにリモートのrepoBをマージ
+git merge -X subtree=repoB repoB/main --allow-unrelated-histories
+
+# 後片付け
+git remote remove repoB
+rm repoB/.gitkeep
+git add --all && git commit -m "done"
+```
+
+### repoAのサブディレクトリをrepoBとして切り出す方法
+
+`git filter-repo`を使う。  
+`git filter-branch`は現在非推奨。  
+使うときに調べる。
 
 ## 用語
 * ブランチ・タグは特定のコミットの参照
