@@ -127,6 +127,7 @@ VimとしているがVi, VSCode Vim, NeoVimなど関係なく書いている
 
 ### コマンドラインモード
 * コマンドラインモードを開く - `:`後に`<C-f>`
+* コマンドラインモードを開く - `q:`
 * コマンドラインモードでコマンドを実行 - `<CR>`
 * ノーマルモードへ戻る - `<C-c>`
 
@@ -236,6 +237,8 @@ VimとしているがVi, VSCode Vim, NeoVimなど関係なく書いている
 * ハイライト解除 - `:noh`
 * 大文字小文字を無視する - `:set ignorecase`
 * クリップボードをOSと共有する - `:set clipboard=unnamed`
+* ファイルエンコーディングを確認 - `:set fileencoding?`
+* ファイルフォーマットを確認 - `:set fileformat?`
 
 ### その他
 * 外部コマンドを実行 - `:!{command}`
@@ -244,6 +247,8 @@ VimとしているがVi, VSCode Vim, NeoVimなど関係なく書いている
 * 直前の変更を繰り返す - `.`
 * メッセージを表示 - `:messages`
     * `vim.notify()`がデフォルトで書き込む場所
+* 遅延実行でテーブルを通知 - `:lua vim.defer_fn(function() vim.notify(vim.inspect(tbl)) end, 3000)`
+* nvimで開発中のプラグインを動かしたい時 - `:lua vim.opt.rtp:prepend("./"); require("example.nvim").setup()`
 
 ## バイナリ編集
 1. `vim -b (ファイルパス)`でバイナリモードで開く

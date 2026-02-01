@@ -47,6 +47,7 @@
     * `git branch --unset-upstream`
 * リモートブランチの削除
     * `git push --delete origin (ブランチ名)`
+    * `git push origin --delete (ブランチ名)`
 * リモートブランチのURLと名称を確認
     * `git remote -v`
 * リモートリポジトリを設定
@@ -95,6 +96,7 @@
     * `git stash list`
 * スタッシュの内容を表示
     * `git stash show`
+    * `-p`オプションで差分を表示
 * スタッシュをステージングに戻す
     * `git stash pop (スタッシュ名)`
 * スタッシュを削除
@@ -194,6 +196,8 @@
     * 指定したコミットにHEADを移動し、差分のステージングを解除する（デフォルト動作）
 * `git reset --hard (コミット)`
     * 指定したコミットにHEADを移動し、差分の変更を削除する
+* `git reset --hard ORIG_HEAD`
+    * 直前のreset/merge/rebaseなどの操作を取り消す
 
 ### revert
 * `git revert (コミット)`
@@ -222,6 +226,9 @@
     * `git ls-remote --tags origin`
 * リモートのタグの削除
     * `git push --delete origin tag (タグ名)`
+* リモートのタグを書き換えるべきではない
+    * 詳細は`git tag --help`の`DISCUSSION`の`On Re-tagging`を参照
+    * https://github.com/git/git/blob/3deb97fe24eccb1245e9323475f10cfba705e08f/Documentation/git-tag.adoc#on-re-tagging
 
 ### その他
 * 情報を表示
@@ -238,6 +245,9 @@
     * `git grep -i (検索文字列)`
 * ページャーを使わない
     * `git --no-pager`
+* Git for Windowsのアップデート
+    * `git update-git-for-windows`
+    * 参考: https://gitforwindows.org/faq.html
 
 ## 設定
 * ユーザー設定を変更する
