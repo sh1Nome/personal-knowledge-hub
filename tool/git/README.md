@@ -278,7 +278,7 @@ git add --all && git commit -m "repoB init"
 
 # repoBをremoteに登録しfetch
 git remote add repoB /path/to/repoB
-git fetch
+git fetch repoB
 
 # repoBディレクトリにリモートのrepoBをマージ
 git merge -X subtree=repoB repoB/main --allow-unrelated-histories
