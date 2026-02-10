@@ -20,9 +20,14 @@
     * `git branch -D (ブランチ名)`
 * 現在のブランチ以外を削除
     * `git branch | xargs git branch -D`
-* チェックアウト
+* ブランチを切り替える
+    * `git switch (ブランチ名)`
     * `git checkout (ブランチ名)`
-* ブランチを作成してチェックアウト
+* 1つ前のブランチに切り替える
+    * `git switch -`
+    * `git checkout -`
+* ブランチを作成して切り替える
+    * `git switch -c (ブランチ名)`
     * `git checkout -b (ブランチ名)`
 
 
