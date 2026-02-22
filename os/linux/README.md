@@ -33,6 +33,7 @@
     - blueman
     - rfkill
     - systemd-timesyncd
+    - build-essential
   - キーボードショートカット（本当はdotfilesで管理したいけど、いい方法が思いつかなくて妥協）
     - アプリケーションショートカット
       - xfce4-popup-whiskermenu : `Alt + F1`（xcapeにより実質Superキー）
