@@ -19,6 +19,8 @@
         * git
         * mise
         * chrome
+        * docker
+        * vscode
     * アンインストール
         * ibus
     * キーボードショートカット（本当はdotfilesで管理したいけど、いい方法が思いつかなくて妥協）
