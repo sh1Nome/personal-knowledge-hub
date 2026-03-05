@@ -1,5 +1,12 @@
 # Fedora
 
+DebianからFedoraに乗り換えた。  
+理由は以下の通り。
+
+* aptよりdnfのほうが好み
+* デフォルトのセキュリティ設定が堅牢
+    * SELinux, Firewall
+
 ## インストール・セットアップメモ
 
 * ISOのダウンロードと検証
