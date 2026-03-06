@@ -73,6 +73,20 @@ DNSサーバの分類のひとつ。
 * プライマリDNSサーバー: ゾーンファイルの原本を保持し、編集可能なサーバー
 * セカンダリDNSサーバー: プライマリサーバーからゾーンファイルをコピーして保持する冗長化用のサーバー
 
+### RFC (Request for Comments)
+インターネット技術の標準や仕様を文書化したもの。  
+IETFやIANAなどの組織が発行する。
+
+#### RFC Editor
+RFCの発行と管理を行う組織。  
+RFCの検索や閲覧ができるWebサイト（https://www.rfc-editor.org/）を提供している。
+
+#### IETF Datatracker
+IETF（Internet Engineering Task Force）のドキュメントやワーキンググループの活動を追跡するツール。  
+インターネットドラフト（Internet-Draft）やRFCの進捗状況を確認できる（https://datatracker.ietf.org/）。  
+RFCがどのような過程を経て標準化されたかを調べることができる。  
+参考: https://www.ietf.org/process/rfcs/
+
 ### IANA (Internet Assigned Numbers Authority)
 インターネットのIPアドレス、ドメイン名、プロトコル番号などの一意な識別子を管理する組織。  
 ICANNの一部門として、グローバルなインターネット資源の割り当てと調整を行っている。
