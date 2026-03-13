@@ -37,6 +37,7 @@
 * git
 * tortoisegit
 * mise
+* chezmoi
 * glab
 * winscp
 * winmerge
