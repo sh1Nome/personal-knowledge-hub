@@ -25,6 +25,7 @@ DebianからFedoraに乗り換えた。
         * xcape（ビルド）
         * git
         * mise
+        * chezmoi
         * chrome
         * docker
         * vscode
