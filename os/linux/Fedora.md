@@ -15,6 +15,7 @@ DebianからFedoraに乗り換えた。
     * sha256でISOを検証しCHECKSUMと照合
 * 追加・変更したアプリ・設定
     * インストール
+        * wezterm
         * mozc
         * fcitx5
         * xclip
