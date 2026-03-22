@@ -273,6 +273,12 @@
     * ファイアウォールの設定を再読み込みする
 * `firewall-cmd --list-ports`
     * 開放されているポートの一覧を表示する
+* `nmcli connection show`
+    * 接続情報を表示する
+* `nmcli device wifi connect (SSID)`
+    * 指定したSSIDのWi-Fiに接続する
+* `nmcli device wifi list --rescan yes`
+    * Wi-Fiネットワークをスキャンして一覧表示する
 
 ## フォント管理
 
