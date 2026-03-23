@@ -33,15 +33,22 @@
     * パスを変換する（Windows環境限定）
     * `-u`: Windows形式のパスをUnix形式に変換
     * `-d`: Unix形式のパスをWindows形式に変換
-* `find . -type f -iname "(検索文字列)"`
-    * カレントディレクトリ以下のファイルを大文字小文字無視で検索する
-* `find -maxdepth`
-    * 検索する階層の深さを指定する
+* `find . -type f`
+    * ファイルのみを検索（`-type d`でディレクトリのみ）
+* `find . -maxdepth 2`
+    * 検索する階層の深さを指定
+* `find . -name "*.txt"`
+    * ファイル名で検索（`-iname`で大文字小文字を区別しない）
+* `find . -path "*/src/*.js"`
+    * パスで検索（`-ipath`で大文字小文字を区別しない）
+* `find . -name "*.txt" -o -name "*.md"`
+    * OR条件で検索
+* `find . -name "*.log" -not -name "*error*"`
+    * NOT条件で検索
+* `find . \( -name "*.js" -o -name "*.ts" \) -type f`
+    * 条件をグループ化（括弧でまとめて優先順位を制御）
 * `find . -name .git -prune -o -print`
-    * カレントディレクトリ以下の`.git`以外のファイル・ディレクトリを検索する
-* `find . -type f -name "*.log" -not -name "*error*"`
-    * 指定した条件に合わないファイルを除外
-    * カレントディレクトリ以下で`.log`ファイルのうち、`*error*`を含むものを除外して検索する
+    * `.git`以外のファイル・ディレクトリを検索
 * `grep (検索文字列) (ファイル名)`
     * ファイルを検索文字列で検索する
 * `(コマンド) | grep (検索文字列)`
