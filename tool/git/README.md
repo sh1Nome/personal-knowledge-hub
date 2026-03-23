@@ -59,6 +59,8 @@
     * `HEAD`は現在のブランチを指すため、ブランチ名を明示的に指定する必要がない
 * 現在のブランチのupstreamを解除
     * `git branch --unset-upstream`
+* ローカルブランチのupstreamを設定
+    * `git branch --set-upstream-to=origin/main main`
 * リモートブランチの削除
     * `git push --delete origin (ブランチ名)`
     * `git push origin --delete (ブランチ名)`
@@ -156,6 +158,8 @@
 * 特定のコミットの特定のファイルの内容を表示
     * `git show (コミット) -- (ファイルパス)` - 差分を表示
     * `git show (コミット):(パス)` - 差分ではなくファイル全体の内容を表示
+* 親コミットの詳細
+    * `git show (コミット)^`
 
 #### git showの詳細な動作例
 同じブランチから派生したxブランチとyブランチがある場合:
@@ -225,6 +229,10 @@
     * `git mergetool --tool=(ツール名)` で特定のマージツールを使用
 * 特定のコミットを現在のブランチに適用
     * `git cherry-pick (コミット)`
+* マージ戦略オプション
+    * `git merge --strategy-option`
+        * `ours` - 競合時に現在のブランチの変更を優先
+        * `theirs` - 競合時にマージ対象のブランチの変更を優先
 
 ### reset
 * `git reset --soft (コミット)`
