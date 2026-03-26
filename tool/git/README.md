@@ -138,6 +138,8 @@
     * git difftool --tool-help
 * 差分ツールを指定して開く
     * git difftool --tool (ツール名)
+* 行末のキャリッジリターンを無視して比較する
+    * `git diff --ignore-cr-at-eol`
 
 #### git diffの詳細な動作例
 同じブランチから派生したxブランチとyブランチがある場合:
