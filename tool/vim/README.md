@@ -253,6 +253,7 @@ VimとしているがVi, VSCode Vim, NeoVimなど関係なく書いている
     * `vim.notify()`がデフォルトで書き込む場所
 * 遅延実行でテーブルを通知 - `:lua vim.defer_fn(function() vim.notify(vim.inspect(tbl)) end, 3000)`
 * nvimで開発中のプラグインを動かしたい時 - `:lua vim.opt.rtp:prepend("./"); require("example.nvim").setup()`
+* Luaスクリプトファイルを実行 - `:luafile (ファイルパス)`
 
 ## バイナリ編集
 1. `vim -b (ファイルパス)`でバイナリモードで開く
