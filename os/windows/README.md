@@ -138,6 +138,7 @@ Windows向けのソフトウェア構築環境。LinuxライクなツールとCM
 ### 設定
 
 * `MSYS2_PATH_TYPE`を設定するとPATHを制御できる
+* `/etc/nsswitch.conf` の `db_home` を `windows` に設定することで、ホームディレクトリを Windows のユーザープロフィール配下（`C:\Users\ユーザー名`）に変更できる。これにより Windows ネイティブツールとの統合が容易になる。
 
 ## WSL2
 ### インストール
