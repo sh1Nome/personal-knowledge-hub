@@ -106,17 +106,22 @@
         * dropでコミットを削除できる
 
 ### スタッシュ
-* ステージング済みの変更をスタッシュに移動
-    * `git stash push`
+* 変更をスタッシュに移動
+    * `git stash push` - 変更をスタッシュに移動（未追跡ファイルは含まない）
+    * `git stash push (ファイルパス)` - 特定ファイルのみをスタッシュに移動
+    * `-u` または `--include-untracked` で未追跡ファイルも含める
 * スタッシュを一覧表示
     * `git stash list`
 * スタッシュの内容を表示
-    * `git stash show`
-    * `-p`オプションで差分を表示
+    * `git stash show` - 最新のstashの情報を表示
+    * `git stash show -p` - 最新のstashの差分を表示
+    * スタッシュ名を指定: `git stash show (スタッシュ名)`
 * スタッシュをステージングに戻す
-    * `git stash pop (スタッシュ名)`
+    * `git stash pop` - 最新のstashを復元して削除
+    * `git stash pop (スタッシュ名)` - 指定したスタッシュを復元して削除
 * スタッシュを削除
-    * `git stash drop (スタッシュ名)`
+    * `git stash drop` - 最新のstashを削除
+    * `git stash drop (スタッシュ名)` - 指定したスタッシュを削除
 
 ### 差分
 * コミットAからコミットBにするために必要な差分

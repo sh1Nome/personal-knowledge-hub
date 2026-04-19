@@ -252,6 +252,8 @@
     * 現在日時を表示する
 * `uname -m`
     * アーキテクチャを表示する
+* `uname -s`
+    * OSの種類を表示する
 * `hostname`
     * ホスト名を表示する
 * `hostname -i`
@@ -398,6 +400,8 @@ RHEL系で使用されるパッケージマネージャ。
     * パッケージの依存関係を表示する
 * `dnf repoquery --whatrequires (パッケージ名)`
     * パッケージの逆依存関係を表示する
+* `dnf repoquery --userinstalled`
+    * ユーザーが明示的にインストールしたパッケージのみを表示する
 * `dnf info (パッケージ名)`
     * パッケージの詳細情報を表示する
 * `dnf provides (ファイルパス)`
