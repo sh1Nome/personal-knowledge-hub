@@ -19,6 +19,7 @@ DebianからFedoraに乗り換えた。
         * mozc
         * fcitx5
         * xclip
+        * dunst
         * gcc
         * make
         * libX11-devel
@@ -62,11 +63,15 @@ DebianからFedoraに乗り換えた。
         * PulseAudioプラグイン
         * 電源管理プラグイン
         * 時計
-        * デスクトップ通知プラグイン
     * セッションと起動
         * 自動開始アプリケーション
-            * xcape（Superキーを単独で押したときにAlt+F1とする）
+            * 「xcape」（Superキーを単独で押したときにAlt+F1とする）を追加
                 * `xcape -e 'Super_L=Alt_L|F1'`
+            * 「Xfce 通知デーモン」をオフ
+            * 「dunst」 を追加
+                * `dunst`
+    * systemd
+        * `systemctl --user mask xfce4-notifyd` でデフォルトの通知デーモンを無効化
     * マウスとタッチパッド
         * タッチパッド
             * 「タッチパッドでタップをクリック」を有効化
