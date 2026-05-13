@@ -303,13 +303,6 @@
 * `nmcli device wifi list --rescan yes`
     * Wi-Fiネットワークをスキャンして一覧表示する
 
-## フォント管理
-
-* `fc-cache -v`
-    * フォントキャッシュを更新する（verbose）
-* `fc-list`
-    * インストールされているフォントを一覧表示する
-
 ## シェル
 
 * `sh (シェルスクリプト名)`
