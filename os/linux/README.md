@@ -108,18 +108,6 @@ WantedBy=multi-user.target
 配置場所は`/etc/systemd/system`。  
 詳細は`man systemd.unit`を確認。
 
-## UNIX
-
-### UNIX哲学
-* 1つのことをうまくやる小さなプログラムを作る
-* プログラムを組み合わせて動くように作る
-* すべてをテキストストリームで扱う（ユニバーサルインターフェース）
-
-### BSD（Berkeley Software Distribution）
-カリフォルニア大学バークレー校で開発されたUnixの派生OS。  
-TCP/IPスタックなど多くの重要な機能を追加し、現代のUnix系OSに大きな影響を与えた。  
-FreeBSD、OpenBSD、NetBSDなどの派生系統が現在も開発されている。
-
 ## システム管理ツール
 
 ### tasksel
