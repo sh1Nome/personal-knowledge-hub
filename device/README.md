@@ -1,17 +1,3 @@
-# 周辺デバイス
-* ~~HHKB Professional Hybrid Type-S~~
-* HHKB Studio
-* USB接続ケーブル(TypeC - A L字)
-* 打ち箸
-* Shokz OpenRun
-* EarPods 3.5mm
-* Logicool G304
-* Xbox 純正コントローラー
-* ~~Anker 4-Port Ultra-Slim USB-A (USB3.0対応) ハブ~~
-* PC
-* ChromeBook
-* Google Pixel 7a
-
 ## 接続図
 ```mermaid
 graph RL
