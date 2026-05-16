@@ -1,24 +1,3 @@
-## 接続図
-```mermaid
-graph RL
-    pc[メインPC]
-    chromebook[ChromeBook]
-    pixel[Pixel 7a]
-    hhkb[HHKB]
-    shokz[Shokz]
-    earpods[EarPods]
-    g304[G304]
-    xbox[箱コン]
-
-    earpods --> pc
-    hhkb -->|USB接続| pc
-    g304 --> pc
-    xbox --> pc
-
-    shokz --> pixel
-    hhkb -->|Bluetooth接続| chromebook
-```
-
 ## HHKB設定
 ### Professional Hybrid Type-S
 DIPスイッチは2のみオン  
