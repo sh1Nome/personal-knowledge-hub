@@ -55,18 +55,3 @@ docker run --rm -v db-data:/data -v $(pwd):/backup ubuntu tar -zcvf /backup/db-d
 docker run --rm -v db-data:/data -v $(pwd):/backup ubuntu bash -c "rm -rf /data/* && tar -zxvf /backup/db-data-backup.tgz -C /data"
 ```
 
-## ファイアウォール
-
-Dockerはiptables(nftables)に独自ルールを追加する。  
-`docker run -p 8080:80 hoge`を実行すると、ホストの8080番ポートが0.0.0.0に公開され、外部からアクセスできるようになる。  
-`-p 127.0.0.1:8080:80`とすることでホストOSからしかアクセスできないようにできる。
-
-参考: https://docs.docker.com/engine/network/port-publishing/
-
-## DinD（Docker in Docker）
-Dockerコンテナ内でDockerデーモンを実行する方式。  
-コンテナ内で完全に独立したDocker環境を構築できる
-
-## DooD（Docker outside of Docker）
-ホストのDockerソケットをコンテナにマウントし、ホストのDockerデーモンを利用する方式。  
-コンテナからホストのDockerを操作できるため、DinDより軽量でシンプル。
