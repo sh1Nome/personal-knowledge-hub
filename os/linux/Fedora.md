@@ -9,10 +9,6 @@ DebianからFedoraに乗り換えた。
 
 ## インストール・セットアップメモ
 
-* ISOのダウンロードと検証
-    * 公式からISO, CHECKSUM, .gpgを取得
-    * gpgでCHECKSUMを検証
-    * sha256でISOを検証しCHECKSUMと照合
 * 追加・変更したアプリ・設定
     * インストール
         * wezterm
