@@ -27,7 +27,6 @@ DebianからFedoraに乗り換えた。
         * chrome
         * docker
         * vscode
-        * remove-retired-packages
     * アンインストール
         * ibus
     * キーボードショートカット（本当はdotfilesで管理したいけど、いい方法が思いつかなくて妥協）
