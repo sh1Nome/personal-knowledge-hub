@@ -24,12 +24,6 @@ HTMLの要素をその意味に応じて適切に使用すること。`<header>`
 ### XSS (Cross-Site Scripting)
 Webサイトに悪意のあるスクリプトを埋め込む攻撃。ユーザーの入力値を適切にエスケープすることで防げる。
 
-### CSRF (Cross-Site Request Forgery)
-ユーザーが意図しない処理を実行させる攻撃。CSRFトークンやSameSite Cookieで防御する。
-
-### CORS (Cross-Origin Resource Sharing)
-異なるオリジン間でのリソース共有を制御するブラウザのセキュリティ機能。適切なヘッダー設定が必要。
-
 ### サニタイズ (Sanitization)
 ユーザー入力を無害化する処理。HTMLエスケープやSQL文字列の適切な処理など、XSS攻撃やSQLインジェクションを防ぐために必要。
 
