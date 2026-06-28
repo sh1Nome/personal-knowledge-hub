@@ -41,8 +41,6 @@ Command Query Responsibility Segregationの略。
 コマンドは永続化のことであり、クエリは参照のことである。  
 レイヤードアーキテクチャと組み合わせることがある。
 
-## SOLID原則
-
 ## DRY原則
 Don't Repeat Yourselfの略。  
 開発において情報を重複させないこと。
