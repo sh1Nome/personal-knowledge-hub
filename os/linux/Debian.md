@@ -6,8 +6,3 @@
 
 - 追加・変更したアプリ・設定
   - インストール
-    - ffmpeg
-    - bash-completion
-    - blueman
-    - rfkill
-    - systemd-timesyncd
